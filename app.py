@@ -693,6 +693,21 @@ section[data-testid="stSidebar"] div[data-testid="stElementContainer"]:has(.nav-
     font-size:.92rem;
 }}
 
+
+/* v15 — move the complete sidebar composition upward */
+section[data-testid="stSidebar"] > div {{
+    padding-top:0.35rem !important;
+}}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarContent"] {{
+    padding-top:0.35rem !important;
+}}
+
+/* Reduce top whitespace before the logo without changing menu rhythm */
+section[data-testid="stSidebar"] [data-testid="stImage"] {{
+    margin-top:-1.6rem !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
