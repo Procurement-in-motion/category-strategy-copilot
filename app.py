@@ -195,6 +195,20 @@ hr {{
     font-size:.76rem;
     letter-spacing:.08em;
 }}
+
+div[data-testid="stButton"] button[kind="primary"],
+div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {
+    background-color:{GOLD} !important;
+    border-color:{GOLD} !important;
+    color:#FFFFFF !important;
+}
+div[data-testid="stButton"] button[kind="primary"]:hover,
+div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {
+    background-color:#A96F10 !important;
+    border-color:#A96F10 !important;
+    color:#FFFFFF !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -213,7 +227,6 @@ st.sidebar.markdown("### Navigation")
 nav_items = [
     ("⌂", "Expertise"),
     ("▦", "Portfolio"),
-    ("◇", "Category Strategy Copilot"),
 ]
 
 for icon, label in nav_items:
@@ -227,6 +240,14 @@ for icon, label in nav_items:
     ):
         st.session_state.pim_page = label
         st.rerun()
+
+st.sidebar.markdown(
+    """
+    <div class="nav-link"><a href="mailto:motalarissa.br@gmail.com">✉ &nbsp; Contact</a></div>
+    <div class="nav-link"><a href="https://www.linkedin.com/in/motalarissa" target="_blank">in &nbsp; LinkedIn</a></div>
+    """,
+    unsafe_allow_html=True
+)
 
 page = st.session_state.pim_page
 
