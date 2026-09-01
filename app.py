@@ -209,6 +209,81 @@ div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {{
     color:#FFFFFF !important;
 }}
 
+
+/* Sidebar navigation refinement */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button {{
+    justify-content:flex-start !important;
+    text-align:left !important;
+    min-height:2.45rem !important;
+    padding:.42rem .65rem !important;
+    border-radius:10px !important;
+    font-weight:650 !important;
+    box-shadow:none !important;
+}}
+
+/* Inactive menu item: navy text/icon only, no white button */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="secondary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-secondary"] {{
+    background:transparent !important;
+    border:1px solid transparent !important;
+    color:{NAVY} !important;
+}}
+
+/* Inactive hover */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="secondary"]:hover,
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-secondary"]:hover {{
+    background:rgba(201,138,26,.06) !important;
+    border-color:transparent !important;
+    color:{GOLD} !important;
+}}
+
+/* Active menu item: pale gold rectangle + gold text/icon */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    background:rgba(201,138,26,.13) !important;
+    border:1px solid transparent !important;
+    color:{GOLD} !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"]:hover,
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {{
+    background:rgba(201,138,26,.18) !important;
+    border-color:transparent !important;
+    color:{GOLD} !important;
+}}
+
+/* Contact / LinkedIn styled as menu rows */
+.nav-link a {{
+    display:block;
+    padding:.48rem .66rem;
+    margin:.10rem 0;
+    border-radius:10px;
+    text-decoration:none !important;
+    color:{NAVY} !important;
+    font-weight:650;
+    background:transparent !important;
+    border:1px solid transparent !important;
+}}
+
+.nav-link a:hover {{
+    background:rgba(201,138,26,.06) !important;
+    color:{GOLD} !important;
+}}
+
+/* Main-content primary actions remain Procurement in Motion gold */
+section.main div[data-testid="stButton"] button[kind="primary"],
+section.main div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    background-color:{GOLD} !important;
+    border-color:{GOLD} !important;
+    color:#FFFFFF !important;
+}}
+section.main div[data-testid="stButton"] button[kind="primary"]:hover,
+section.main div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {{
+    background-color:#A96F10 !important;
+    border-color:#A96F10 !important;
+    color:#FFFFFF !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
