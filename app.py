@@ -389,6 +389,65 @@ section[data-testid="stSidebar"] div[data-testid="stButton"] button:hover {{
     color:{NAVY} !important;
 }}
 
+
+/* v8 compact, evenly-spaced, typographically consistent navigation */
+section[data-testid="stSidebar"] div[data-testid="stButton"] {{
+    margin:.38rem 0 !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stButton"] button {{
+    width:100% !important;
+    min-height:3.25rem !important;
+    height:3.25rem !important;
+    padding:.45rem .8rem !important;
+    margin:0 !important;
+    border-radius:14px !important;
+    justify-content:center !important;
+    text-align:center !important;
+    font-family:"Segoe UI", Arial, sans-serif !important;
+    font-size:.96rem !important;
+    font-weight:400 !important;
+    line-height:1.2 !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stButton"] button p {{
+    font-family:"Segoe UI", Arial, sans-serif !important;
+    font-size:.96rem !important;
+    font-weight:400 !important;
+    line-height:1.2 !important;
+    margin:0 !important;
+}}
+
+.nav-link {{
+    margin:.38rem 0 !important;
+}}
+
+.nav-link a {{
+    box-sizing:border-box !important;
+    width:100% !important;
+    min-height:3.25rem !important;
+    height:3.25rem !important;
+    padding:.45rem .8rem !important;
+    margin:0 !important;
+    border-radius:14px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    text-align:center !important;
+    font-family:"Segoe UI", Arial, sans-serif !important;
+    font-size:.96rem !important;
+    font-weight:400 !important;
+    line-height:1.2 !important;
+    text-decoration:none !important;
+    color:{NAVY} !important;
+}}
+
+/* Keep the active item non-bold */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    font-weight:400 !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
