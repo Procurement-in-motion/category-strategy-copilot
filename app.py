@@ -111,6 +111,11 @@ div[data-testid="stTabs"] button[aria-selected="true"] {{
 hr {{
     border-color:#DED6CA;
 }}
+
+div[data-testid="stMetricValue"] > div {
+    font-size: 2.05rem !important;
+    line-height: 1.05 !important;
+}
 </style>
 """,unsafe_allow_html=True)
 
@@ -234,6 +239,17 @@ total=float(df[spend].sum()); ss=df.groupby(supplier)[spend].sum().sort_values(a
 n=len(ss); shares=ss/total if total else ss*0
 top3=float(ss.head(3).sum()/total) if total else 0
 hhi=float((shares**2).sum()*10000) if total else 0
+
+def compact_number(value):
+    value = float(value)
+    abs_value = abs(value)
+    if abs_value >= 1_000_000_000:
+        return f"{value/1_000_000_000:.2f}B"
+    if abs_value >= 1_000_000:
+        return f"{value/1_000_000:.2f}M"
+    if abs_value >= 1_000:
+        return f"{value/1_000:.1f}K"
+    return f"{value:,.0f}"
 asc=ss.sort_values(); cum=asc.cumsum()/total if total else asc*0
 tail=asc[cum<=.20]; tail_n=len(tail); tail_share=float(tail.sum()/total) if total else 0
 
@@ -261,9 +277,12 @@ tabs=st.tabs(["Overview","Internal Intelligence","Market Intelligence","Kraljic"
 
 with tabs[0]:
     st.subheader(f"{category} · {geography}")
-    m=st.columns(6)
-    m[0].metric("Spend",f"{total:,.0f}"); m[1].metric("Suppliers",n); m[2].metric("Top-3",f"{top3:.1%}")
-    m[3].metric("HHI",f"{hhi:,.0f}"); m[4].metric("Price variance","N/A" if pv is None else f"{pv:.1%}"); m[5].metric("Kraljic",q)
+    m=st.columns(5)
+    m[0].metric("Spend", compact_number(total))
+    m[1].metric("Suppliers", n)
+    m[2].metric("Top-3", f"{top3:.1%}")
+    m[3].metric("Price variance", "N/A" if pv is None else f"{pv:.1%}")
+    m[4].metric("Kraljic", q.title())
     st.markdown('<div class="card"><b>Category North Star</b><br>Evidence before recommendation: facts, human inputs and external intelligence are separated before action.</div>',unsafe_allow_html=True)
 
 with tabs[1]:
@@ -371,7 +390,6 @@ with tabs[8]:
     evidence=[
         ["FACT","Total spend",f"{total:,.0f}","Uploaded data","High"],
         ["FACT","Top-3 concentration",f"{top3:.1%}","Uploaded data","High"],
-        ["FACT","HHI",f"{hhi:,.0f}","Calculated","High"],
         ["HUMAN INPUT","Operational criticality",f"{criticality}/5","Category assessment","Medium"],
         ["HUMAN INPUT","Qualified alternatives",f"{alternatives}/5","Category assessment","Medium"],
         ["INFERENCE","Kraljic classification",q,"Transparent weighted rule","Medium"],
