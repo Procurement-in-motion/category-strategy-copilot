@@ -514,6 +514,81 @@ section[data-testid="stSidebar"] .nav-link a {{
     overflow-wrap:anywhere !important;
 }}
 
+
+/* v10 — uniform menu gaps and stable thin borders */
+
+/* Normalize Streamlit vertical block gaps inside sidebar */
+section[data-testid="stSidebar"] [data-testid="stVerticalBlock"] {{
+    gap:0 !important;
+}}
+
+/* Exact same spacing after each navigation row */
+section[data-testid="stSidebar"] div[data-testid="stButton"],
+section[data-testid="stSidebar"] .nav-link {{
+    margin:0 0 14px 0 !important;
+    padding:0 !important;
+}}
+
+/* Same geometry for all four rectangles */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button,
+section[data-testid="stSidebar"] .nav-link a {{
+    width:100% !important;
+    height:3.25rem !important;
+    min-height:3.25rem !important;
+    margin:0 !important;
+    padding:.45rem .8rem !important;
+    border-radius:14px !important;
+    box-sizing:border-box !important;
+    font-family:"Segoe UI", Arial, sans-serif !important;
+    font-size:.96rem !important;
+    font-weight:400 !important;
+    line-height:1.2 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    text-align:center !important;
+}}
+
+/* Inactive buttons keep their fine gold border at rest AND hover */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="secondary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-secondary"] {{
+    background:transparent !important;
+    border:1px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="secondary"]:hover,
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-secondary"]:hover {{
+    background:rgba(201,138,26,.06) !important;
+    border:1px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+
+/* Active button keeps the same shape; only fill/border emphasis changes */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    background:rgba(201,138,26,.12) !important;
+    border:2px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"]:hover,
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {{
+    background:rgba(201,138,26,.15) !important;
+    border:2px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+
+/* Contact and LinkedIn keep their thin border when hovering */
+section[data-testid="stSidebar"] .nav-link a {{
+    background:transparent !important;
+    border:1px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+section[data-testid="stSidebar"] .nav-link a:hover {{
+    background:rgba(201,138,26,.06) !important;
+    border:1px solid rgba(201,138,26,.70) !important;
+    color:{NAVY} !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -528,6 +603,7 @@ def go_to(page):
     st.session_state.pim_page = page
 
 st.sidebar.markdown("### Navigation")
+st.sidebar.markdown('<div class="nav-menu-start"></div>', unsafe_allow_html=True)
 
 nav_items = [
     ("🏠", "Expertise"),
