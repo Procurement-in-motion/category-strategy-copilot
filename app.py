@@ -324,6 +324,71 @@ section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid=
     margin-top:auto !important;
 }}
 
+
+/* v7 navigation card layout */
+section[data-testid="stSidebar"] div[data-testid="stButton"] {{
+    margin:.65rem 0 !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stButton"] button {{
+    width:100% !important;
+    min-height:4.65rem !important;
+    padding:.9rem 1rem !important;
+    border-radius:16px !important;
+    justify-content:center !important;
+    text-align:center !important;
+    font-size:1.02rem !important;
+    font-weight:500 !important;
+}}
+
+/* Inactive navigation cards */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="secondary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-secondary"] {{
+    background:transparent !important;
+    border:1px solid rgba(201,138,26,.65) !important;
+    color:{NAVY} !important;
+}}
+
+/* Active navigation card */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    background:rgba(201,138,26,.12) !important;
+    border:2px solid rgba(201,138,26,.65) !important;
+    color:{NAVY} !important;
+    box-shadow:0 2px 0 rgba(201,138,26,.20) !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stButton"] button:hover {{
+    background:rgba(201,138,26,.08) !important;
+    border-color:{GOLD} !important;
+    color:{NAVY} !important;
+}}
+
+/* Contact and LinkedIn use the same navigation-card dimensions */
+.nav-link a {{
+    width:100% !important;
+    min-height:4.65rem !important;
+    padding:.9rem 1rem !important;
+    margin:.65rem 0 !important;
+    border-radius:16px !important;
+    border:1px solid rgba(201,138,26,.65) !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    text-align:center !important;
+    color:{NAVY} !important;
+    font-size:1.02rem !important;
+    font-weight:500 !important;
+    text-decoration:none !important;
+    background:transparent !important;
+}}
+
+.nav-link a:hover {{
+    background:rgba(201,138,26,.08) !important;
+    border-color:{GOLD} !important;
+    color:{NAVY} !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
