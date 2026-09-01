@@ -3,8 +3,19 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-st.set_page_config(page_title="Category Strategy Copilot | Procurement in Motion", page_icon="◈", layout="wide")
-NAVY="#0B2A59"; GOLD="#C98A1A"; BG="#FBFAF7"; TEXT="#172033"; BEIGE="#F3EEE5"; WHITE="#FFFFFF"
+st.set_page_config(
+    page_title="Procurement in Motion | Larissa Mota",
+    page_icon="◈",
+    layout="wide"
+)
+
+NAVY="#0B2A59"
+GOLD="#C98A1A"
+BG="#FBFAF7"
+TEXT="#172033"
+BEIGE="#F3EEE5"
+WHITE="#FFFFFF"
+MUTED="#667085"
 
 st.markdown(f"""
 <style>
@@ -17,7 +28,7 @@ html, body, [class*="css"] {{
 }}
 .block-container {{
     padding-top:1.15rem;
-    padding-bottom:2rem;
+    padding-bottom:2.4rem;
     max-width:1450px;
 }}
 header[data-testid="stHeader"] {{
@@ -29,7 +40,7 @@ section[data-testid="stSidebar"] {{
     border-right:1px solid #DED6CA;
 }}
 section[data-testid="stSidebar"] > div {{
-    padding-top:1.25rem;
+    padding-top:1.1rem;
 }}
 section[data-testid="stSidebar"] * {{
     color:{NAVY};
@@ -52,51 +63,15 @@ div[data-testid="stMetric"] {{
     padding:14px;
     box-shadow:0 2px 10px rgba(11,42,89,.04);
 }}
+div[data-testid="stMetricValue"] > div {{
+    font-size:2.05rem !important;
+    line-height:1.05 !important;
+}}
 [data-testid="stFileUploader"] {{
     background:white;
     border:1px solid #E6E0D7;
     border-radius:18px;
     padding:10px;
-}}
-.hero {{
-    background:{NAVY};
-    border-left:6px solid {GOLD};
-    padding:26px 30px;
-    border-radius:18px;
-    color:white;
-    margin-bottom:22px;
-    box-shadow:0 3px 14px rgba(11,42,89,.08);
-}}
-.hero h1 {{
-    color:white;
-    margin:0;
-    font-size:2.3rem;
-    line-height:1.1;
-}}
-.hero p {{
-    color:#E8EEF8;
-    margin:.8rem 0 0;
-    font-size:1.02rem;
-}}
-.eyebrow {{
-    color:white;
-    font-size:.74rem;
-    letter-spacing:.14em;
-    font-weight:800;
-}}
-.eyebrow .dot {{
-    color:{GOLD};
-}}
-.card {{
-    background:white;
-    border:1px solid #E6E0D7;
-    border-radius:16px;
-    padding:16px;
-    margin:8px 0;
-    box-shadow:0 2px 10px rgba(11,42,89,.03);
-}}
-div[data-testid="stTabs"] {{
-    background:transparent;
 }}
 div[data-testid="stTabs"] button p {{
     font-weight:700;
@@ -111,17 +86,317 @@ div[data-testid="stTabs"] button[aria-selected="true"] {{
 hr {{
     border-color:#DED6CA;
 }}
-
-div[data-testid="stMetricValue"] > div {{
-    font-size: 2.05rem !important;
-    line-height: 1.05 !important;
+.pim-hero {{
+    background:{NAVY};
+    border-left:6px solid {GOLD};
+    padding:34px 36px;
+    border-radius:20px;
+    color:white;
+    margin-bottom:26px;
+    box-shadow:0 4px 18px rgba(11,42,89,.10);
+}}
+.pim-hero h1 {{
+    color:white;
+    margin:0;
+    font-size:2.75rem;
+    line-height:1.08;
+}}
+.pim-hero p {{
+    color:#E8EEF8;
+    margin:.85rem 0 0;
+    font-size:1.08rem;
+    max-width:900px;
+}}
+.eyebrow {{
+    color:white;
+    font-size:.73rem;
+    letter-spacing:.14em;
+    font-weight:800;
+    margin-bottom:.55rem;
+}}
+.eyebrow .dot {{
+    color:{GOLD};
+}}
+.gold-label {{
+    color:{GOLD};
+    font-size:.76rem;
+    letter-spacing:.12em;
+    font-weight:800;
+    text-transform:uppercase;
+}}
+.intro {{
+    font-size:1.08rem;
+    color:{MUTED};
+    max-width:900px;
+}}
+.project-card {{
+    background:white;
+    border:1px solid #E6E0D7;
+    border-radius:18px;
+    padding:22px;
+    height:100%;
+    box-shadow:0 2px 12px rgba(11,42,89,.035);
+}}
+.project-card.active {{
+    border-top:4px solid {GOLD};
+}}
+.project-card h3 {{
+    margin:.35rem 0 .55rem;
+}}
+.project-card p {{
+    color:{MUTED};
+    font-size:.92rem;
+    min-height:78px;
+}}
+.status {{
+    color:{GOLD};
+    font-size:.74rem;
+    font-weight:800;
+}}
+.pillar {{
+    background:white;
+    border:1px solid #E6E0D7;
+    border-radius:16px;
+    padding:18px;
+    min-height:150px;
+}}
+.pillar .num {{
+    color:{GOLD};
+    font-size:.72rem;
+    font-weight:800;
+}}
+.pillar h4 {{
+    margin:.65rem 0 .4rem;
+}}
+.pillar p {{
+    color:{MUTED};
+    font-size:.88rem;
+}}
+.about-card {{
+    background:white;
+    border:1px solid #E6E0D7;
+    border-radius:18px;
+    padding:24px;
+    margin:10px 0;
+}}
+.card {{
+    background:white;
+    border:1px solid #E6E0D7;
+    border-radius:16px;
+    padding:16px;
+    margin:8px 0;
+    box-shadow:0 2px 10px rgba(11,42,89,.03);
+}}
+.footer {{
+    margin-top:36px;
+    padding-top:18px;
+    border-top:1px solid #DED6CA;
+    color:#7A8290;
+    font-size:.76rem;
+    letter-spacing:.08em;
 }}
 </style>
-""",unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-logo=Path(__file__).parent/"pim_logo.png"
-if logo.exists(): st.sidebar.image(str(logo),use_container_width=True)
+logo = Path(__file__).parent / "pim_logo.png"
+if logo.exists():
+    st.sidebar.image(str(logo), use_container_width=True)
 
+if "pim_page" not in st.session_state:
+    st.session_state.pim_page = "Home"
+
+def go_to(page):
+    st.session_state.pim_page = page
+
+st.sidebar.markdown("### Navigation")
+page = st.sidebar.radio(
+    "Procurement in Motion",
+    ["Home", "Projects", "About", "Approach", "Category Strategy Copilot"],
+    key="pim_page",
+    label_visibility="collapsed"
+)
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Portfolio status**")
+st.sidebar.caption("Category Strategy Copilot · WIP")
+st.sidebar.caption("3 projects · To be initiated")
+
+def hub_hero(title, subtitle):
+    st.markdown(
+        f"""<div class="pim-hero">
+        <div class="eyebrow">PROCUREMENT STRATEGY <span class="dot">·</span> GOVERNANCE <span class="dot">·</span> TRANSFORMATION <span class="dot">·</span> AI</div>
+        <h1>{title}</h1><p>{subtitle}</p></div>""",
+        unsafe_allow_html=True
+    )
+
+def footer():
+    st.markdown(
+        '<div class="footer">PROCUREMENT IN MOTION &nbsp; | &nbsp; BY LARISSA MOTA</div>',
+        unsafe_allow_html=True
+    )
+
+if page == "Home":
+    hub_hero(
+        "Procurement in Motion",
+        "Practical frameworks and AI-enabled solutions for modern Procurement."
+    )
+    st.markdown(
+        '<p class="intro">A portfolio connecting strategy, category management, sourcing, governance, processes, analytics and AI — designed to turn procurement information into clearer decisions and executable action.</p>',
+        unsafe_allow_html=True
+    )
+
+    st.markdown("## Explore the portfolio")
+    c1, c2 = st.columns(2)
+    with c1:
+        st.markdown("""<div class="project-card active">
+        <span class="status">WIP · FUNCTIONAL MVP</span>
+        <h3>Category Strategy Copilot</h3>
+        <p>Turn spend, business requirements, supplier dynamics, market intelligence and risk into an evidence-based, actionable category strategy.</p>
+        </div>""", unsafe_allow_html=True)
+        st.button(
+            "Open Category Strategy Copilot →",
+            type="primary",
+            use_container_width=True,
+            on_click=go_to,
+            args=("Category Strategy Copilot",)
+        )
+    with c2:
+        st.markdown("""<div class="project-card">
+        <span class="status">TO BE INITIATED</span>
+        <h3>Strategic Sourcing Event</h3>
+        <p>Guide the sourcing journey from scope and requirements through market engagement, RFI/RFP/RFQ, bid analysis, negotiation, supplier selection and award.</p>
+        </div>""", unsafe_allow_html=True)
+
+    c3, c4 = st.columns(2)
+    with c3:
+        st.markdown("""<div class="project-card">
+        <span class="status">TO BE INITIATED</span>
+        <h3>Negotiation Framework</h3>
+        <p>A disciplined and evidence-based approach to negotiation preparation, scenarios, BATNA, targets, concessions, total value and documented outcomes.</p>
+        </div>""", unsafe_allow_html=True)
+    with c4:
+        st.markdown("""<div class="project-card">
+        <span class="status">TO BE INITIATED</span>
+        <h3>Procurement Governance Architecture</h3>
+        <p>Connect policy, process, risk, controls, approvals, evidence, exceptions and performance across the Procurement lifecycle.</p>
+        </div>""", unsafe_allow_html=True)
+
+    st.markdown("## Procurement in Motion")
+    p1,p2,p3,p4,p5 = st.columns(5)
+    pillars = [
+        ("01","Strategy","Translate business priorities into procurement direction."),
+        ("02","Category","Connect spend, demand, suppliers, markets and risk."),
+        ("03","Process","Design clear and scalable ways of working."),
+        ("04","Systems","Enable decisions and controls through digital workflows."),
+        ("05","Analytics","Turn data into evidence, insight and action.")
+    ]
+    for col_, (num,title,desc) in zip([p1,p2,p3,p4,p5], pillars):
+        with col_:
+            st.markdown(f'<div class="pillar"><div class="num">{num}</div><h4>{title}</h4><p>{desc}</p></div>', unsafe_allow_html=True)
+
+    footer()
+    st.stop()
+
+if page == "Projects":
+    hub_hero(
+        "Projects",
+        "A growing portfolio of Procurement frameworks and AI-enabled tools."
+    )
+    st.markdown('<div class="gold-label">WORK IN PROGRESS (WIP)</div>', unsafe_allow_html=True)
+    st.markdown("## Selected Portfolio")
+
+    projects = [
+        ("01","Category Strategy Copilot","WIP",
+         "An AI-enabled approach that turns spend, business requirements, supply-market intelligence, supplier dynamics and risk into an evidence-based, actionable category strategy."),
+        ("02","Strategic Sourcing Event","To be initiated",
+         "An end-to-end sourcing approach from scope and business requirements through market engagement, RFI/RFP/RFQ, bid analysis, supplier evaluation, negotiation, decision governance and award."),
+        ("03","Negotiation Framework","To be initiated",
+         "A disciplined, ethical and evidence-based method to prepare, conduct and document supplier negotiations — connecting fact base, BATNA, targets, scenarios, concessions and total value."),
+        ("04","Procurement Governance Architecture","To be initiated",
+         "A governance architecture connecting policy, standards, processes, controls, approvals, evidence, exceptions, KPIs and continuous improvement.")
+    ]
+    for num,title,status,desc in projects:
+        st.markdown(
+            f"""<div class="about-card">
+            <span class="gold-label">{num} · {status}</span>
+            <h3>{title}</h3>
+            <p>{desc}</p>
+            </div>""",
+            unsafe_allow_html=True
+        )
+        if title == "Category Strategy Copilot":
+            st.button(
+                "Open project →",
+                type="primary",
+                key="open_project_projects",
+                on_click=go_to,
+                args=("Category Strategy Copilot",)
+            )
+    footer()
+    st.stop()
+
+if page == "About":
+    hub_hero(
+        "About",
+        "Procurement experience translated into practical frameworks, governance and digital solutions."
+    )
+    st.markdown("## About Larissa Mota")
+    st.markdown("""<div class="about-card">
+    <p>Procurement and business excellence professional with experience across global, regional and local organizations, combining Strategic Sourcing, Category Management, Procurement Excellence, Source-to-Contract, Source-to-Pay, supplier governance, analytics and digital transformation.</p>
+    <p>The common thread is turning complex procurement environments into clearer strategies, scalable processes, stronger governance and practical tools that support better decisions.</p>
+    </div>""", unsafe_allow_html=True)
+
+    st.markdown("## Core capabilities")
+    a,b,c = st.columns(3)
+    with a:
+        st.markdown("""<div class="pillar"><div class="num">STRATEGY</div><h4>Strategic Sourcing & Category</h4><p>Category strategy, sourcing, negotiation, supplier portfolio and value creation.</p></div>""", unsafe_allow_html=True)
+    with b:
+        st.markdown("""<div class="pillar"><div class="num">EXCELLENCE</div><h4>Governance & Transformation</h4><p>Processes, policies, controls, operating models, CLM and procurement transformation.</p></div>""", unsafe_allow_html=True)
+    with c:
+        st.markdown("""<div class="pillar"><div class="num">DIGITAL</div><h4>Analytics, Automation & AI</h4><p>KPIs, dashboards, workflows, automation and AI-enabled procurement use cases.</p></div>""", unsafe_allow_html=True)
+
+    st.markdown("## Procurement in Motion")
+    st.write(
+        "Procurement in Motion is a practical portfolio for exploring how Procurement can become more strategic, scalable and decision-oriented through better frameworks, governance, analytics and AI-enabled ways of working."
+    )
+    footer()
+    st.stop()
+
+if page == "Approach":
+    hub_hero(
+        "Approach",
+        "Start with the decision. Build the evidence. Define the process and governance. Then determine where technology and AI can strengthen the outcome."
+    )
+    st.markdown("## How the approach works")
+    steps = [
+        ("01","Decision","Define the business or Procurement decision that needs to be improved."),
+        ("02","Evidence","Identify the internal data, external intelligence and human inputs required."),
+        ("03","Process","Create a clear workflow from input through analysis, decision and execution."),
+        ("04","Governance","Define policies, controls, approvals, exceptions and evidence requirements."),
+        ("05","Technology & AI","Use automation and AI where they improve speed, consistency, insight or user experience."),
+        ("06","Human validation","Keep accountable judgment and approval with the appropriate people.")
+    ]
+    for num,title,desc in steps:
+        st.markdown(f'<div class="about-card"><span class="gold-label">{num}</span><h3>{title}</h3><p>{desc}</p></div>', unsafe_allow_html=True)
+
+    st.markdown("## Design principles")
+    st.markdown(
+        "**Evidence before recommendation · Assumptions made explicit · Confidence visible · "
+        "Opportunity is not automatically savings · External intelligence requires sources · "
+        "AI supports decisions; it does not replace accountable judgment.**"
+    )
+    footer()
+    st.stop()
+
+# ---------------------------
+# CATEGORY STRATEGY COPILOT
+# ---------------------------
+hub_hero(
+    "Category Strategy Copilot",
+    "From procurement data to evidence-based, actionable category strategy."
+)
+
+st.sidebar.markdown("---")
 st.sidebar.markdown("### Category Context")
 category=st.sidebar.text_input("Category","Corrugated Packaging")
 geography=st.sidebar.text_input("Geography","Brazil")
@@ -134,9 +409,6 @@ switching=st.sidebar.slider("Switching cost / complexity",1,5,3)
 alternatives=st.sidebar.slider("Qualified alternatives",1,5,2)
 quality=st.sidebar.slider("Quality / customer impact",1,5,4)
 
-st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT STRATEGY <span class="dot">·</span> GOVERNANCE <span class="dot">·</span> TRANSFORMATION</div>
-<h1>Category Strategy Copilot</h1><p>From procurement data to evidence-based, actionable category strategy.</p></div>""",unsafe_allow_html=True)
-
 uploaded=st.file_uploader("Upload procurement data",type=["csv","xlsx","xls"])
 
 with st.expander("What data should I upload?", expanded=False):
@@ -146,7 +418,7 @@ Only **Supplier** and **Spend** are required to start; additional fields unlock 
 """)
     requirements = pd.DataFrame([
         ["Supplier","Required","Supplier analysis, concentration and dependency"],
-        ["Spend","Required","Spend baseline, supplier share and HHI"],
+        ["Spend","Required","Spend baseline and supplier concentration/share"],
         ["Category","Recommended","Category scope and context validation"],
         ["Date","Recommended","Spend and demand trends over time"],
         ["Plant / Location","Optional","Site and geographic analysis"],
@@ -204,7 +476,7 @@ if not supplier or not spend:
 
 analysis_readiness = [
     ("Spend baseline", bool(spend), "Spend"),
-    ("Supplier concentration & HHI", bool(supplier and spend), "Supplier + Spend"),
+    ("Supplier concentration", bool(supplier and spend), "Supplier + Spend"),
     ("Price variance", bool(sku and price), "SKU / Material + Unit Price"),
     ("Demand / volume analysis", bool(qty), "Quantity"),
     ("Trend analysis", bool(date_col), "Date"),
@@ -396,3 +668,6 @@ with tabs[8]:
         ["EXTERNAL INTELLIGENCE","Supply market evidence","Not connected yet","MVP3B","Not available"]]
     st.dataframe(pd.DataFrame(evidence,columns=["Type","Evidence","Value","Source","Confidence"]),use_container_width=True,hide_index=True)
     st.info("No external market claim is shown without a source. Missing evidence is explicit.")
+
+
+footer()
