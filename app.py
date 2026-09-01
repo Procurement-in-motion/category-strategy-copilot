@@ -4,21 +4,32 @@ import numpy as np
 from pathlib import Path
 
 st.set_page_config(page_title="Category Strategy Copilot | Procurement in Motion", page_icon="◈", layout="wide")
-NAVY="#123463"; GOLD="#C98A1A"; BG="#F4F0E8"; TEXT="#172033"; BEIGE="#F4F0E8"; WHITE="#FFFFFF"
+NAVY="#0B2A59"; GOLD="#C98A1A"; BG="#FBFAF7"; TEXT="#172033"; BEIGE="#F3EEE5"; WHITE="#FFFFFF"
 
 st.markdown(f"""
 <style>
+html, body, [class*="css"] {{
+    font-family: "Segoe UI", Arial, sans-serif;
+}}
 .stApp {{
     background:{BG};
     color:{TEXT};
 }}
 .block-container {{
-    padding-top:1.1rem;
+    padding-top:1.15rem;
+    padding-bottom:2rem;
     max-width:1450px;
+}}
+header[data-testid="stHeader"] {{
+    background:{BG};
+    border-bottom:1px solid #ECE8E1;
 }}
 section[data-testid="stSidebar"] {{
     background:{BEIGE};
-    border-right:1px solid #DDD5C8;
+    border-right:1px solid #DED6CA;
+}}
+section[data-testid="stSidebar"] > div {{
+    padding-top:1.25rem;
 }}
 section[data-testid="stSidebar"] * {{
     color:{NAVY};
@@ -26,62 +37,79 @@ section[data-testid="stSidebar"] * {{
 section[data-testid="stSidebar"] input {{
     color:{TEXT} !important;
     background:white !important;
+    border-radius:12px !important;
 }}
 section[data-testid="stSidebar"] [data-baseweb="slider"] * {{
     color:{NAVY};
 }}
-h1,h2,h3 {{
+h1,h2,h3,h4 {{
     color:{NAVY};
 }}
 div[data-testid="stMetric"] {{
     background:white;
-    border:1px solid #E2DDD4;
+    border:1px solid #E6E0D7;
     border-radius:16px;
     padding:14px;
-    box-shadow:0 2px 8px rgba(18,52,99,.04);
+    box-shadow:0 2px 10px rgba(11,42,89,.04);
 }}
 [data-testid="stFileUploader"] {{
     background:white;
-    border:1px solid #E2DDD4;
-    border-radius:16px;
-    padding:8px;
+    border:1px solid #E6E0D7;
+    border-radius:18px;
+    padding:10px;
 }}
 .hero {{
-    background:{BEIGE};
-    border:1px solid #DDD5C8;
+    background:{NAVY};
     border-left:6px solid {GOLD};
-    padding:24px 28px;
+    padding:26px 30px;
     border-radius:18px;
-    color:{TEXT};
-    margin-bottom:18px;
+    color:white;
+    margin-bottom:22px;
+    box-shadow:0 3px 14px rgba(11,42,89,.08);
 }}
 .hero h1 {{
-    color:{NAVY};
+    color:white;
     margin:0;
+    font-size:2.3rem;
+    line-height:1.1;
 }}
 .hero p {{
-    color:#5D6470;
-    margin:.4rem 0 0;
+    color:#E8EEF8;
+    margin:.8rem 0 0;
+    font-size:1.02rem;
 }}
 .eyebrow {{
-    color:{NAVY};
-    font-size:.75rem;
+    color:white;
+    font-size:.74rem;
     letter-spacing:.14em;
     font-weight:800;
 }}
-.brand-accent {{
+.eyebrow .dot {{
     color:{GOLD};
 }}
 .card {{
     background:white;
-    border:1px solid #E2DDD4;
+    border:1px solid #E6E0D7;
     border-radius:16px;
     padding:16px;
     margin:8px 0;
+    box-shadow:0 2px 10px rgba(11,42,89,.03);
+}}
+div[data-testid="stTabs"] {{
+    background:transparent;
 }}
 div[data-testid="stTabs"] button p {{
     font-weight:700;
     color:{NAVY};
+}}
+div[data-testid="stTabs"] button[aria-selected="true"] {{
+    border-bottom-color:{GOLD} !important;
+}}
+.stAlert {{
+    border-radius:14px;
+}}
+hr {{
+    border-color:#DED6CA;
 }}
 </style>
 """,unsafe_allow_html=True)
@@ -101,7 +129,7 @@ switching=st.sidebar.slider("Switching cost / complexity",1,5,3)
 alternatives=st.sidebar.slider("Qualified alternatives",1,5,2)
 quality=st.sidebar.slider("Quality / customer impact",1,5,4)
 
-st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT STRATEGY · GOVERNANCE · TRANSFORMATION</div>
+st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT STRATEGY <span class="dot">·</span> GOVERNANCE <span class="dot">·</span> TRANSFORMATION</div>
 <h1>Category Strategy Copilot</h1><p>From procurement data to evidence-based, actionable category strategy.</p></div>""",unsafe_allow_html=True)
 
 uploaded=st.file_uploader("Upload procurement data",type=["csv","xlsx","xls"])
