@@ -630,6 +630,69 @@ section[data-testid="stSidebar"] div[data-testid="stElementContainer"]:has(.nav-
     padding:0 !important;
 }}
 
+
+/* v14 — one HTML structure for all navigation cards */
+.nav-menu {{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    margin-top:16px;
+}}
+
+.nav-menu .nav-card {{
+    width:100%;
+    height:3.25rem;
+    min-height:3.25rem;
+    box-sizing:border-box;
+    border:1px solid rgba(201,138,26,.70);
+    border-radius:14px;
+    background:transparent;
+    color:{NAVY} !important;
+    text-decoration:none !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:.52rem;
+    padding:.45rem .8rem;
+    font-family:"Segoe UI", Arial, sans-serif;
+    font-size:.96rem;
+    font-weight:400;
+    line-height:1.2;
+    margin:0 !important;
+}}
+
+.nav-menu .nav-card:hover {{
+    background:rgba(201,138,26,.06);
+    border:1px solid rgba(201,138,26,.70);
+    color:{NAVY} !important;
+    text-decoration:none !important;
+}}
+
+.nav-menu .nav-card.active {{
+    background:rgba(201,138,26,.12);
+    border:2px solid rgba(201,138,26,.70);
+    box-shadow:0 2px 0 rgba(201,138,26,.18);
+}}
+
+.nav-menu .nav-card.active:hover {{
+    background:rgba(201,138,26,.15);
+    border:2px solid rgba(201,138,26,.70);
+}}
+
+.nav-menu .nav-icon {{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:1.1rem;
+    font-size:1rem;
+    font-weight:400;
+}}
+
+.nav-menu .linkedin-icon {{
+    font-family:Arial, sans-serif;
+    font-size:.92rem;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -637,41 +700,45 @@ logo = Path(__file__).parent / "pim_logo.png"
 if logo.exists():
     st.sidebar.image(str(logo), use_container_width=True)
 
-if "pim_page" not in st.session_state:
-    st.session_state.pim_page = "Expertise"
+# Navigation is driven by query parameters so every menu row can use the
+# exact same HTML structure and spacing.
+query_page = st.query_params.get("page", "Expertise")
+if isinstance(query_page, list):
+    query_page = query_page[0]
+if query_page not in ["Expertise", "Portfolio", "Category Strategy Copilot"]:
+    query_page = "Expertise"
+
+st.session_state.pim_page = query_page
+page = st.session_state.pim_page
 
 def go_to(page):
+    st.query_params["page"] = page
     st.session_state.pim_page = page
 
 st.sidebar.markdown("### Navigation")
-st.sidebar.markdown('<div class="nav-menu-start"></div>', unsafe_allow_html=True)
 
-nav_items = [
-    ("🏠", "Expertise"),
-    ("◫", "Portfolio"),
-]
-
-for icon, label in nav_items:
-    active = st.session_state.pim_page == label
-    btn_label = f"{icon}   {label}"
-    if st.sidebar.button(
-        btn_label,
-        key=f"nav_{label}",
-        use_container_width=True,
-        type="primary" if active else "secondary"
-    ):
-        st.session_state.pim_page = label
-        st.rerun()
+expertise_class = "nav-card active" if page == "Expertise" else "nav-card"
+portfolio_class = "nav-card active" if page == "Portfolio" else "nav-card"
 
 st.sidebar.markdown(
-    """
-    <div class="nav-link"><a href="mailto:motalarissa.br@gmail.com">✉ &nbsp; Contact</a></div>
-    <div class="nav-link"><a href="https://www.linkedin.com/in/motalarissa" target="_blank">in &nbsp; LinkedIn</a></div>
+    f"""
+    <div class="nav-menu">
+      <a class="{expertise_class}" href="?page=Expertise" target="_self">
+        <span class="nav-icon">⌂</span><span>Expertise</span>
+      </a>
+      <a class="{portfolio_class}" href="?page=Portfolio" target="_self">
+        <span class="nav-icon">▦</span><span>Portfolio</span>
+      </a>
+      <a class="nav-card" href="mailto:motalarissa.br@gmail.com">
+        <span class="nav-icon">✉</span><span>Contact</span>
+      </a>
+      <a class="nav-card" href="https://www.linkedin.com/in/motalarissa" target="_blank">
+        <span class="nav-icon linkedin-icon">in</span><span>LinkedIn</span>
+      </a>
+    </div>
     """,
     unsafe_allow_html=True
 )
-
-page = st.session_state.pim_page
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Portfolio status**")
@@ -754,13 +821,13 @@ if page == "Portfolio":
             unsafe_allow_html=True
         )
         if title == "Category Strategy Copilot":
-            st.button(
+            if st.button(
                 "Open project  →",
                 type="primary",
-                key="open_project_portfolio",
-                on_click=go_to,
-                args=("Category Strategy Copilot",)
-            )
+                key="open_project_portfolio"
+            ):
+                go_to("Category Strategy Copilot")
+                st.rerun()
     footer()
     st.stop()
 
@@ -768,7 +835,7 @@ if page == "Portfolio":
 # CATEGORY STRATEGY COPILOT
 # ---------------------------
 if st.button("‹  Back to Portfolio", key="back_to_portfolio"):
-    st.session_state.pim_page = "Portfolio"
+    go_to("Portfolio")
     st.rerun()
 
 hub_hero(
