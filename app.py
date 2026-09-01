@@ -589,6 +589,15 @@ section[data-testid="stSidebar"] .nav-link a:hover {{
     color:{NAVY} !important;
 }}
 
+
+/* v11 — slightly more breathing room below Navigation title */
+.nav-menu-start {{
+    height:10px !important;
+    min-height:10px !important;
+    margin:0 !important;
+    padding:0 !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
