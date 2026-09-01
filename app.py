@@ -197,17 +197,17 @@ hr {{
 }}
 
 div[data-testid="stButton"] button[kind="primary"],
-div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {
+div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
     background-color:{GOLD} !important;
     border-color:{GOLD} !important;
     color:#FFFFFF !important;
-}
+}}
 div[data-testid="stButton"] button[kind="primary"]:hover,
-div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {
+div[data-testid="stButton"] button[data-testid="stBaseButton-primary"]:hover {{
     background-color:#A96F10 !important;
     border-color:#A96F10 !important;
     color:#FFFFFF !important;
-}
+}}
 
 </style>
 """, unsafe_allow_html=True)
