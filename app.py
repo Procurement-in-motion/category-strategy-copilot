@@ -152,8 +152,8 @@ Only **Supplier** and **Spend** are required to start; additional fields unlock 
         ["Payment Terms","Optional","Commercial terms analysis"],
     ], columns=["Field","Status","Used for"])
     st.dataframe(requirements, use_container_width=True, hide_index=True)
-    st.markdown("**Minimum to start:** Supplier + Spend  
-**For richer insights:** add SKU, Unit Price, Quantity, Contract Status and Date.")
+    st.markdown("""**Minimum to start:** Supplier + Spend  
+**For richer insights:** add SKU, Unit Price, Quantity, Contract Status and Date.""")
 
 sample_path = Path(__file__).parent/"sample_corrugated_packaging.csv"
 sample_col, guide_col = st.columns([1,2])
