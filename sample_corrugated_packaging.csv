@@ -1,0 +1,854 @@
+Date,Supplier,Category,Subcategory,Plant,SKU,Quantity,Unit Price,Spend,Currency,Contract Status,Payment Terms
+2025-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-004,411,4.13,1697.43,BRL,Active,45
+2025-01-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-017,2119,4.32,9154.08,BRL,Active,45
+2025-01-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-020,1549,5.17,8008.33,BRL,Expired,45
+2025-01-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-015,2798,3.66,10240.68,BRL,No Contract,30
+2025-01-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-020,1144,5.4,6177.6,BRL,No Contract,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-008,1375,3.0,4125.0,BRL,Active,30
+2025-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-004,1443,4.37,6305.91,BRL,Active,45
+2025-01-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-018,2119,4.95,10489.05,BRL,Active,60
+2025-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-004,2451,4.62,11323.62,BRL,Active,60
+2025-01-01,PrimePack,Packaging,Corrugated,Campinas,BOX-016,1027,3.49,3584.23,BRL,Active,60
+2025-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-012,1173,4.6,5395.8,BRL,Active,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-007,244,2.63,641.72,BRL,Expired,60
+2025-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-010,369,3.71,1368.99,BRL,No Contract,45
+2025-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,2108,3.94,8305.52,BRL,Expired,60
+2025-01-01,PrimePack,Packaging,Corrugated,Joinville,BOX-018,1662,4.18,6947.16,BRL,Active,45
+2025-01-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-013,433,5.41,2342.53,BRL,Active,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-012,2724,4.37,11903.88,BRL,Expired,30
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-010,1454,3.86,5612.44,BRL,Active,60
+2025-01-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-006,488,4.87,2376.56,BRL,No Contract,60
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-011,490,4.38,2146.2,BRL,Active,45
+2025-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-014,2249,3.13,7039.37,BRL,No Contract,30
+2025-01-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-009,2860,3.66,10467.6,BRL,Active,45
+2025-01-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-008,2391,3.31,7914.21,BRL,No Contract,60
+2025-01-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,2887,3.71,10710.77,BRL,Active,45
+2025-01-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-001,1008,3.21,3235.68,BRL,Active,45
+2025-01-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-008,2340,3.18,7441.2,BRL,Active,30
+2025-01-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-014,1329,2.68,3561.72,BRL,Active,30
+2025-01-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-013,2675,4.92,13161.0,BRL,Active,60
+2025-01-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-012,720,4.72,3398.4,BRL,No Contract,30
+2025-01-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-019,2432,4.65,11308.8,BRL,Active,90
+2025-01-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-006,1869,4.75,8877.75,BRL,Expired,60
+2025-01-01,EcoPack,Packaging,Corrugated,Joinville,BOX-017,694,4.45,3088.3,BRL,Active,45
+2025-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-008,1430,3.41,4876.3,BRL,Active,45
+2025-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-001,412,3.14,1293.68,BRL,No Contract,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-009,1989,3.38,6722.82,BRL,Active,60
+2025-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-018,1769,4.64,8208.16,BRL,Active,30
+2025-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-018,2210,4.69,10364.9,BRL,No Contract,30
+2025-01-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-018,1939,4.35,8434.65,BRL,Active,45
+2025-01-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-020,2384,5.82,13874.88,BRL,No Contract,60
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-003,1137,3.96,4502.52,BRL,Expired,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-010,1265,3.95,4996.75,BRL,Active,30
+2025-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,1310,4.99,6536.9,BRL,Active,30
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-015,543,3.08,1672.44,BRL,No Contract,60
+2025-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-019,2864,4.82,13804.48,BRL,No Contract,45
+2025-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-011,2085,3.93,8194.05,BRL,Active,60
+2025-01-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-018,434,4.9,2126.6,BRL,No Contract,45
+2025-01-01,EcoPack,Packaging,Corrugated,Joinville,BOX-018,2248,4.86,10925.28,BRL,No Contract,60
+2025-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-020,1600,4.95,7920.0,BRL,No Contract,30
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-008,510,3.09,1575.9,BRL,Active,30
+2025-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-005,374,4.37,1634.38,BRL,Active,60
+2025-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-009,834,3.46,2885.64,BRL,No Contract,45
+2025-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-005,613,4.94,3028.22,BRL,No Contract,60
+2025-02-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-004,1774,4.96,8799.04,BRL,Active,60
+2025-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-015,1910,2.96,5653.6,BRL,Active,60
+2025-02-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-008,2010,3.18,6391.8,BRL,Active,90
+2025-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-005,754,3.96,2985.84,BRL,Active,45
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-015,2043,3.16,6455.88,BRL,Active,45
+2025-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-015,2229,3.09,6887.61,BRL,Active,90
+2025-02-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-003,1018,3.7,3766.6,BRL,No Contract,60
+2025-02-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-004,1126,4.49,5055.74,BRL,Expired,30
+2025-02-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-013,320,4.72,1510.4,BRL,Active,90
+2025-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-012,435,4.52,1966.2,BRL,Active,45
+2025-02-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-005,2864,4.54,13002.56,BRL,Active,60
+2025-02-01,EcoPack,Packaging,Corrugated,Joinville,BOX-003,1885,4.3,8105.5,BRL,Active,60
+2025-02-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-018,1946,4.8,9340.8,BRL,Active,45
+2025-02-01,PrimePack,Packaging,Corrugated,Joinville,BOX-019,2825,4.73,13362.25,BRL,Active,45
+2025-02-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-013,1226,5.09,6240.34,BRL,Active,60
+2025-02-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-011,1360,3.97,5399.2,BRL,Active,90
+2025-02-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-008,824,3.37,2776.88,BRL,Active,90
+2025-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-006,2581,5.28,13627.68,BRL,No Contract,30
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-016,2892,3.58,10353.36,BRL,Active,60
+2025-02-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-004,205,4.2,861.0,BRL,Active,30
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-003,1182,3.91,4621.62,BRL,Expired,60
+2025-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-010,2539,3.86,9800.54,BRL,No Contract,30
+2025-02-01,PackCo A,Packaging,Corrugated,Joinville,BOX-006,791,5.19,4105.29,BRL,Active,30
+2025-02-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-012,264,4.73,1248.72,BRL,Active,90
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,1196,4.4,5262.4,BRL,No Contract,60
+2025-02-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-019,1624,5.01,8136.24,BRL,Expired,60
+2025-02-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-003,2270,3.97,9011.9,BRL,Active,60
+2025-02-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-010,680,3.79,2577.2,BRL,Active,45
+2025-02-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-019,1665,4.72,7858.8,BRL,Active,45
+2025-02-01,PackCo A,Packaging,Corrugated,Joinville,BOX-011,2212,4.5,9954.0,BRL,Active,45
+2025-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-001,2848,3.52,10024.96,BRL,Active,45
+2025-02-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-017,2750,4.44,12210.0,BRL,No Contract,45
+2025-02-01,PrimePack,Packaging,Corrugated,Joinville,BOX-010,1439,3.96,5698.44,BRL,Active,60
+2025-02-01,PrimePack,Packaging,Corrugated,Campinas,BOX-002,2466,3.65,9000.9,BRL,Active,30
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,510,4.6,2346.0,BRL,Active,60
+2025-02-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-013,2450,5.74,14063.0,BRL,Active,60
+2025-02-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-016,885,3.43,3035.55,BRL,Active,60
+2025-02-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-009,622,3.78,2351.16,BRL,No Contract,90
+2025-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-001,1539,3.16,4863.24,BRL,Active,30
+2025-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-007,2410,2.71,6531.1,BRL,Active,45
+2025-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,348,3.49,1214.52,BRL,Active,60
+2025-02-01,PackCo A,Packaging,Corrugated,Campinas,BOX-008,1466,3.12,4573.92,BRL,Active,60
+2025-02-01,PrimePack,Packaging,Corrugated,Campinas,BOX-014,2176,2.81,6114.56,BRL,Active,60
+2025-02-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-012,1950,4.29,8365.5,BRL,Active,30
+2025-02-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,363,4.56,1655.28,BRL,Active,30
+2025-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-011,2080,3.87,8049.6,BRL,Active,30
+2025-03-01,EcoPack,Packaging,Corrugated,Campinas,BOX-011,288,4.56,1313.28,BRL,Active,60
+2025-03-01,EcoPack,Packaging,Corrugated,Joinville,BOX-013,249,5.44,1354.56,BRL,Active,45
+2025-03-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-009,1823,3.99,7273.77,BRL,Active,30
+2025-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-018,1684,4.22,7106.48,BRL,Active,30
+2025-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-014,2043,2.78,5679.54,BRL,No Contract,30
+2025-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-008,789,2.98,2351.22,BRL,Expired,45
+2025-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-012,411,4.32,1775.52,BRL,Active,60
+2025-03-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-012,2078,4.89,10161.42,BRL,Active,45
+2025-03-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-011,2199,4.42,9719.58,BRL,Active,45
+2025-03-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-006,1919,4.64,8904.16,BRL,Active,60
+2025-03-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-005,2614,4.5,11763.0,BRL,Active,60
+2025-03-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-016,720,3.97,2858.4,BRL,Active,60
+2025-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-017,206,3.75,772.5,BRL,Active,30
+2025-03-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-004,531,4.64,2463.84,BRL,Active,60
+2025-03-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-009,1717,3.65,6267.05,BRL,Active,60
+2025-03-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-017,2812,4.19,11782.28,BRL,No Contract,90
+2025-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-020,2849,4.83,13760.67,BRL,Active,60
+2025-03-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-010,522,4.15,2166.3,BRL,Active,60
+2025-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,2984,4.52,13487.68,BRL,Active,60
+2025-03-01,EcoPack,Packaging,Corrugated,Joinville,BOX-017,2553,4.43,11309.79,BRL,Active,45
+2025-03-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-019,216,4.65,1004.4,BRL,Active,60
+2025-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-018,1246,4.36,5432.56,BRL,Active,30
+2025-03-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-015,2033,3.3,6708.9,BRL,Active,60
+2025-03-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-004,2717,4.18,11357.06,BRL,Active,30
+2025-03-01,PrimePack,Packaging,Corrugated,Joinville,BOX-015,2552,3.29,8396.08,BRL,Expired,90
+2025-03-01,PrimePack,Packaging,Corrugated,Joinville,BOX-002,797,3.62,2885.14,BRL,No Contract,30
+2025-03-01,EcoPack,Packaging,Corrugated,Campinas,BOX-007,2167,3.17,6869.39,BRL,Active,30
+2025-03-01,EcoPack,Packaging,Corrugated,Joinville,BOX-001,1220,3.67,4477.4,BRL,Active,60
+2025-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-002,2278,3.53,8041.34,BRL,Active,60
+2025-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-014,2301,2.73,6281.73,BRL,Active,90
+2025-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-001,1700,2.93,4981.0,BRL,Active,90
+2025-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-016,941,3.41,3208.81,BRL,Expired,90
+2025-03-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-006,672,5.05,3393.6,BRL,Active,30
+2025-03-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-007,2198,2.76,6066.48,BRL,Active,60
+2025-03-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-002,1910,3.71,7086.1,BRL,Active,60
+2025-03-01,LocalFlex,Packaging,Corrugated,Joinville,BOX-016,1545,4.29,6628.05,BRL,Active,30
+2025-03-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-015,1686,3.35,5648.1,BRL,Active,90
+2025-03-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-006,2575,5.09,13106.75,BRL,Expired,45
+2025-03-01,EcoPack,Packaging,Corrugated,Campinas,BOX-013,2513,5.46,13720.98,BRL,Active,60
+2025-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-018,886,3.79,3357.94,BRL,Expired,30
+2025-03-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-020,326,5.11,1665.86,BRL,No Contract,45
+2025-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-010,875,4.13,3613.75,BRL,Active,30
+2025-04-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-001,1394,3.86,5380.84,BRL,Expired,30
+2025-04-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-017,1562,3.72,5810.64,BRL,Active,60
+2025-04-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-010,2407,4.69,11288.83,BRL,Active,30
+2025-04-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-011,1088,4.3,4678.4,BRL,Active,45
+2025-04-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-004,1025,3.87,3966.75,BRL,Active,60
+2025-04-01,PrimePack,Packaging,Corrugated,Campinas,BOX-006,2011,5.04,10135.44,BRL,Active,60
+2025-04-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-016,2798,3.4,9513.2,BRL,Active,90
+2025-04-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-005,1271,4.7,5973.7,BRL,Active,60
+2025-04-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-006,2872,4.86,13957.92,BRL,Active,30
+2025-04-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-011,222,4.04,896.88,BRL,Expired,30
+2025-04-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-019,738,5.17,3815.46,BRL,Active,45
+2025-04-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-005,1153,5.09,5868.77,BRL,Expired,60
+2025-04-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,603,4.14,2496.42,BRL,Expired,30
+2025-04-01,EcoPack,Packaging,Corrugated,Campinas,BOX-002,2690,3.89,10464.1,BRL,No Contract,60
+2025-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-001,1469,3.23,4744.87,BRL,No Contract,30
+2025-04-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-004,1588,4.57,7257.16,BRL,No Contract,30
+2025-04-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-002,1950,3.91,7624.5,BRL,Active,60
+2025-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-002,2039,3.8,7748.2,BRL,Active,30
+2025-04-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-019,1123,4.67,5244.41,BRL,Active,45
+2025-04-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-008,2878,3.53,10159.34,BRL,Active,60
+2025-04-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-017,1753,3.92,6871.76,BRL,Active,90
+2025-04-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-011,2837,4.28,12142.36,BRL,No Contract,45
+2025-04-01,EcoPack,Packaging,Corrugated,Joinville,BOX-019,1272,5.14,6538.08,BRL,Active,60
+2025-04-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-002,2109,3.35,7065.15,BRL,Active,90
+2025-04-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-004,1385,4.83,6689.55,BRL,No Contract,45
+2025-04-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-018,2536,4.31,10930.16,BRL,No Contract,60
+2025-04-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-015,994,3.36,3339.84,BRL,Expired,45
+2025-04-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-010,811,4.34,3519.74,BRL,No Contract,45
+2025-04-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-001,2714,3.3,8956.2,BRL,Active,60
+2025-04-01,EcoPack,Packaging,Corrugated,Campinas,BOX-017,1517,4.42,6705.14,BRL,No Contract,60
+2025-04-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-003,977,3.81,3722.37,BRL,Active,30
+2025-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,2637,2.89,7620.93,BRL,Active,30
+2025-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,2703,2.93,7919.79,BRL,Expired,30
+2025-04-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,2896,4.55,13176.8,BRL,Active,60
+2025-04-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-018,1082,4.97,5377.54,BRL,Active,30
+2025-04-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-019,555,4.73,2625.15,BRL,Active,45
+2025-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-001,1633,3.15,5143.95,BRL,No Contract,30
+2025-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-012,2046,4.46,9125.16,BRL,Expired,60
+2025-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-001,1056,3.16,3336.96,BRL,Expired,60
+2025-05-01,LocalFlex,Packaging,Corrugated,Joinville,BOX-006,242,5.72,1384.24,BRL,Expired,60
+2025-05-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-007,2529,3.06,7738.74,BRL,Active,45
+2025-05-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-017,1182,3.8,4491.6,BRL,No Contract,30
+2025-05-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-005,2561,4.98,12753.78,BRL,No Contract,60
+2025-05-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-018,1490,4.43,6600.7,BRL,Active,60
+2025-05-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-003,1329,4.16,5528.64,BRL,Active,30
+2025-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-001,1751,3.09,5410.59,BRL,Active,60
+2025-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-011,1829,3.97,7261.13,BRL,No Contract,45
+2025-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-018,2247,4.14,9302.58,BRL,Active,30
+2025-05-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-015,705,3.08,2171.4,BRL,Active,60
+2025-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-004,1500,4.4,6600.0,BRL,Active,90
+2025-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,1841,3.04,5596.64,BRL,Expired,60
+2025-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-004,2060,4.18,8610.8,BRL,Active,30
+2025-05-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-008,947,3.33,3153.51,BRL,No Contract,30
+2025-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,2781,4.89,13599.09,BRL,Active,60
+2025-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-020,1130,5.23,5909.9,BRL,Active,45
+2025-05-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-006,2836,5.25,14889.0,BRL,Expired,90
+2025-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-014,608,2.82,1714.56,BRL,Active,45
+2025-05-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-007,1112,3.28,3647.36,BRL,Active,90
+2025-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-018,1034,4.2,4342.8,BRL,Active,45
+2025-05-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-017,449,3.97,1782.53,BRL,Active,60
+2025-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-008,1533,3.15,4828.95,BRL,Active,45
+2025-05-01,EcoPack,Packaging,Corrugated,Joinville,BOX-014,267,3.09,825.03,BRL,Active,45
+2025-05-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-006,1338,5.56,7439.28,BRL,Active,60
+2025-05-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-017,568,4.04,2294.72,BRL,Active,60
+2025-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-017,1207,3.87,4671.09,BRL,Active,60
+2025-05-01,PackCo A,Packaging,Corrugated,Campinas,BOX-010,1585,3.94,6244.9,BRL,Expired,30
+2025-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-007,2258,2.69,6074.02,BRL,No Contract,45
+2025-05-01,PackCo A,Packaging,Corrugated,Campinas,BOX-006,2529,5.3,13403.7,BRL,Active,45
+2025-05-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-012,1176,4.17,4903.92,BRL,Active,60
+2025-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-013,1199,4.89,5863.11,BRL,Active,90
+2025-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-006,662,4.66,3084.92,BRL,Active,90
+2025-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-001,888,3.22,2859.36,BRL,Active,60
+2025-05-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-016,2599,3.76,9772.24,BRL,Active,30
+2025-05-01,EcoPack,Packaging,Corrugated,Campinas,BOX-007,1402,3.2,4486.4,BRL,Active,45
+2025-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-013,1568,4.73,7416.64,BRL,Active,60
+2025-05-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-007,494,3.19,1575.86,BRL,No Contract,60
+2025-05-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-008,2561,3.51,8989.11,BRL,Active,45
+2025-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-018,2628,4.38,11510.64,BRL,No Contract,45
+2025-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-014,1361,2.76,3756.36,BRL,Expired,90
+2025-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-005,734,4.51,3310.34,BRL,Expired,45
+2025-06-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-009,2801,3.72,10419.72,BRL,Expired,60
+2025-06-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-003,1434,4.54,6510.36,BRL,Active,30
+2025-06-01,EcoPack,Packaging,Corrugated,Campinas,BOX-015,756,3.49,2638.44,BRL,Active,30
+2025-06-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-020,323,4.88,1576.24,BRL,No Contract,45
+2025-06-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-010,1061,4.1,4350.1,BRL,Active,30
+2025-06-01,PrimePack,Packaging,Corrugated,Joinville,BOX-014,1566,2.83,4431.78,BRL,Expired,60
+2025-06-01,EcoPack,Packaging,Corrugated,Joinville,BOX-005,2527,4.86,12281.22,BRL,Active,90
+2025-06-01,EcoPack,Packaging,Corrugated,Joinville,BOX-017,1006,4.34,4366.04,BRL,No Contract,30
+2025-06-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-020,1248,4.77,5952.96,BRL,No Contract,45
+2025-06-01,PrimePack,Packaging,Corrugated,Campinas,BOX-005,499,4.53,2260.47,BRL,Active,60
+2025-06-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-009,583,4.17,2431.11,BRL,Active,45
+2025-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-013,1100,4.79,5269.0,BRL,No Contract,30
+2025-06-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-020,1725,5.31,9159.75,BRL,Active,60
+2025-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-018,2028,4.43,8984.04,BRL,Active,90
+2025-06-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-002,497,4.2,2087.4,BRL,Active,60
+2025-06-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-006,2629,4.91,12908.39,BRL,No Contract,60
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-004,2493,3.8,9473.4,BRL,Active,45
+2025-06-01,EcoPack,Packaging,Corrugated,Campinas,BOX-020,330,5.38,1775.4,BRL,No Contract,30
+2025-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,2023,2.87,5806.01,BRL,No Contract,60
+2025-06-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-015,885,3.08,2725.8,BRL,Active,30
+2025-06-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,2432,4.15,10092.8,BRL,Active,45
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-003,460,3.62,1665.2,BRL,Active,60
+2025-06-01,EcoPack,Packaging,Corrugated,Campinas,BOX-007,617,3.06,1888.02,BRL,Active,60
+2025-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-017,2309,3.84,8866.56,BRL,Active,90
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,2571,3.66,9409.86,BRL,Expired,60
+2025-06-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-002,2895,3.37,9756.15,BRL,Active,60
+2025-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-009,664,3.81,2529.84,BRL,Active,45
+2025-06-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-017,377,4.23,1594.71,BRL,No Contract,30
+2025-06-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-012,1253,4.84,6064.52,BRL,Active,45
+2025-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-009,2267,3.41,7730.47,BRL,Active,60
+2025-06-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-001,795,3.05,2424.75,BRL,No Contract,45
+2025-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,722,3.65,2635.3,BRL,Active,60
+2025-06-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-019,763,4.83,3685.29,BRL,Expired,30
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-002,420,3.34,1402.8,BRL,Active,60
+2025-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-005,1236,4.78,5908.08,BRL,No Contract,60
+2025-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-013,564,5.16,2910.24,BRL,Active,30
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-001,2069,3.07,6351.83,BRL,Expired,60
+2025-06-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-018,404,4.45,1797.8,BRL,Expired,45
+2025-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-006,488,4.6,2244.8,BRL,Active,30
+2025-06-01,EcoPack,Packaging,Corrugated,Joinville,BOX-008,1487,3.46,5145.02,BRL,Active,45
+2025-06-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-002,213,3.33,709.29,BRL,Active,90
+2025-07-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-004,2644,4.57,12083.08,BRL,No Contract,60
+2025-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-002,2721,3.79,10312.59,BRL,No Contract,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-013,2569,4.68,12022.92,BRL,Expired,90
+2025-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,2387,3.94,9404.78,BRL,Active,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-013,2356,4.65,10955.4,BRL,No Contract,60
+2025-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-008,533,3.52,1876.16,BRL,Active,60
+2025-07-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-020,1074,5.13,5509.62,BRL,No Contract,30
+2025-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-003,2909,3.89,11316.01,BRL,No Contract,60
+2025-07-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-010,2752,4.14,11393.28,BRL,Active,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,461,4.47,2060.67,BRL,Active,45
+2025-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-001,466,3.25,1514.5,BRL,No Contract,30
+2025-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-011,1064,4.23,4500.72,BRL,Active,90
+2025-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-015,2711,3.37,9136.07,BRL,Active,30
+2025-07-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-014,2337,2.7,6309.9,BRL,Active,30
+2025-07-01,PackCo A,Packaging,Corrugated,Campinas,BOX-016,2715,3.62,9828.3,BRL,Active,30
+2025-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-006,1271,4.79,6088.09,BRL,Active,90
+2025-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-010,1035,3.87,4005.45,BRL,Active,45
+2025-07-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-002,2108,3.44,7251.52,BRL,No Contract,45
+2025-07-01,PrimePack,Packaging,Corrugated,Campinas,BOX-008,2159,3.14,6779.26,BRL,No Contract,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-020,392,4.92,1928.64,BRL,No Contract,45
+2025-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-015,492,3.35,1648.2,BRL,Expired,30
+2025-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,2811,3.97,11159.67,BRL,Expired,30
+2025-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-001,1438,3.03,4357.14,BRL,Active,60
+2025-07-01,PrimePack,Packaging,Corrugated,Joinville,BOX-018,1220,4.35,5307.0,BRL,Active,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-016,958,3.4,3257.2,BRL,Active,30
+2025-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-006,2268,4.96,11249.28,BRL,Active,45
+2025-07-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-014,2556,3.01,7693.56,BRL,Expired,60
+2025-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-013,1335,5.23,6982.05,BRL,Active,45
+2025-07-01,PackCo A,Packaging,Corrugated,Campinas,BOX-012,952,4.7,4474.4,BRL,Active,30
+2025-07-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-013,2572,4.92,12654.24,BRL,Expired,60
+2025-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-011,2970,4.7,13959.0,BRL,Active,45
+2025-07-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-001,2718,3.05,8289.9,BRL,Active,45
+2025-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-017,1119,3.9,4364.1,BRL,Active,90
+2025-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-019,589,4.59,2703.51,BRL,Active,60
+2025-07-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-011,509,5.0,2545.0,BRL,Active,45
+2025-07-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-009,2539,3.6,9140.4,BRL,Expired,60
+2025-07-01,PrimePack,Packaging,Corrugated,Joinville,BOX-009,1700,3.59,6103.0,BRL,Active,45
+2025-07-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-010,1362,4.54,6183.48,BRL,Active,60
+2025-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-003,1273,3.5,4455.5,BRL,Active,60
+2025-07-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-015,1968,3.3,6494.4,BRL,Active,45
+2025-07-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-008,2495,3.16,7884.2,BRL,Active,45
+2025-07-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-015,2298,3.24,7445.52,BRL,No Contract,45
+2025-07-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-001,520,3.54,1840.8,BRL,Active,45
+2025-07-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-019,1678,4.56,7651.68,BRL,No Contract,60
+2025-08-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-018,2288,3.93,8991.84,BRL,Active,90
+2025-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-010,726,4.05,2940.3,BRL,Expired,45
+2025-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,2381,3.45,8214.45,BRL,Active,60
+2025-08-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-006,2069,4.92,10179.48,BRL,Active,90
+2025-08-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-018,1859,4.61,8569.99,BRL,Active,30
+2025-08-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-016,2989,3.51,10491.39,BRL,Active,30
+2025-08-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-004,1005,4.62,4643.1,BRL,No Contract,45
+2025-08-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-018,2307,4.41,10173.87,BRL,Active,30
+2025-08-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-006,527,4.69,2471.63,BRL,Active,90
+2025-08-01,PackCo A,Packaging,Corrugated,Campinas,BOX-003,1066,4.01,4274.66,BRL,Active,45
+2025-08-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-006,2661,5.67,15087.87,BRL,Active,60
+2025-08-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-011,2186,4.84,10580.24,BRL,Active,45
+2025-08-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-010,1037,3.93,4075.41,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-006,2671,5.03,13435.13,BRL,Active,90
+2025-08-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-004,2705,4.51,12199.55,BRL,No Contract,45
+2025-08-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-013,754,4.64,3498.56,BRL,Active,60
+2025-08-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-005,1451,4.72,6848.72,BRL,Expired,45
+2025-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-014,1494,2.75,4108.5,BRL,No Contract,45
+2025-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-001,375,3.06,1147.5,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-016,1120,3.69,4132.8,BRL,Active,60
+2025-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-014,1853,2.64,4891.92,BRL,Active,30
+2025-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-018,919,4.34,3988.46,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-020,2195,5.29,11611.55,BRL,Active,30
+2025-08-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-011,668,5.1,3406.8,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-003,1024,3.87,3962.88,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-008,2052,3.12,6402.24,BRL,Active,60
+2025-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-015,2106,3.06,6444.36,BRL,Active,45
+2025-08-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-002,1390,3.92,5448.8,BRL,Active,60
+2025-08-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-012,959,4.78,4584.02,BRL,Active,90
+2025-08-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-012,210,4.52,949.2,BRL,Active,45
+2025-08-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-018,2433,4.1,9975.3,BRL,Active,90
+2025-08-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-016,1596,3.19,5091.24,BRL,Expired,60
+2025-08-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-015,1806,3.14,5670.84,BRL,Active,90
+2025-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-012,1910,4.3,8213.0,BRL,Active,60
+2025-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-003,1855,3.89,7215.95,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-004,519,4.47,2319.93,BRL,Expired,60
+2025-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-007,1540,2.82,4342.8,BRL,Active,30
+2025-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-005,2580,5.09,13132.2,BRL,Active,90
+2025-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-006,537,5.0,2685.0,BRL,Expired,90
+2025-08-01,EcoPack,Packaging,Corrugated,Campinas,BOX-013,2887,5.37,15503.19,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-020,2246,4.58,10286.68,BRL,No Contract,60
+2025-09-01,PackCo A,Packaging,Corrugated,Campinas,BOX-017,1335,4.0,5340.0,BRL,Active,60
+2025-09-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-012,890,5.17,4601.3,BRL,Active,45
+2025-09-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-012,449,4.37,1962.13,BRL,Active,60
+2025-09-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-019,2051,4.88,10008.88,BRL,Active,60
+2025-09-01,PrimePack,Packaging,Corrugated,Joinville,BOX-011,1547,4.28,6621.16,BRL,Active,45
+2025-09-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,2387,3.5,8354.5,BRL,No Contract,30
+2025-09-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-004,2098,4.14,8685.72,BRL,Active,30
+2025-09-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-007,813,2.76,2243.88,BRL,Active,30
+2025-09-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-016,2145,3.54,7593.3,BRL,No Contract,45
+2025-09-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-016,2738,3.51,9610.38,BRL,No Contract,30
+2025-09-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-018,1768,4.47,7902.96,BRL,Active,60
+2025-09-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-017,257,3.98,1022.86,BRL,Active,60
+2025-09-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-009,2830,3.47,9820.1,BRL,Active,60
+2025-09-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-004,2397,4.39,10522.83,BRL,No Contract,45
+2025-09-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-001,2871,3.3,9474.3,BRL,No Contract,90
+2025-09-01,PackCo A,Packaging,Corrugated,Joinville,BOX-011,1279,4.35,5563.65,BRL,Active,60
+2025-09-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-006,1102,5.15,5675.3,BRL,No Contract,30
+2025-09-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-017,1402,3.74,5243.48,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-001,843,3.12,2630.16,BRL,Active,30
+2025-09-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-009,1417,3.82,5412.94,BRL,No Contract,45
+2025-09-01,PackCo A,Packaging,Corrugated,Campinas,BOX-014,2609,2.93,7644.37,BRL,No Contract,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-017,346,3.97,1373.62,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-018,2383,4.18,9960.94,BRL,No Contract,30
+2025-09-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-013,919,4.86,4466.34,BRL,Active,30
+2025-09-01,PackCo A,Packaging,Corrugated,Campinas,BOX-009,779,3.67,2858.93,BRL,Active,60
+2025-09-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-004,2366,4.27,10102.82,BRL,No Contract,60
+2025-09-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-004,2630,4.34,11414.2,BRL,Active,45
+2025-09-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-003,1267,4.36,5524.12,BRL,No Contract,90
+2025-09-01,EcoPack,Packaging,Corrugated,Campinas,BOX-002,2709,3.87,10483.83,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-010,1128,3.49,3936.72,BRL,No Contract,60
+2025-09-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-014,241,3.01,725.41,BRL,Active,45
+2025-09-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-017,684,3.93,2688.12,BRL,Active,60
+2025-09-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-013,435,4.92,2140.2,BRL,Active,45
+2025-09-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-019,2639,4.31,11374.09,BRL,Active,90
+2025-09-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-003,1702,3.97,6756.94,BRL,Active,60
+2025-09-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,991,4.16,4122.56,BRL,Active,60
+2025-09-01,PackCo A,Packaging,Corrugated,Campinas,BOX-015,376,3.22,1210.72,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-019,517,4.42,2285.14,BRL,Active,60
+2025-09-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-009,891,3.49,3109.59,BRL,Active,60
+2025-09-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-008,658,3.63,2388.54,BRL,No Contract,60
+2025-09-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-016,1365,3.61,4927.65,BRL,Active,45
+2025-10-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,483,4.44,2144.52,BRL,Active,60
+2025-10-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-003,2860,3.99,11411.4,BRL,Active,30
+2025-10-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-009,688,4.03,2772.64,BRL,Active,45
+2025-10-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,1945,4.28,8324.6,BRL,Active,30
+2025-10-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-013,2680,5.23,14016.4,BRL,Active,90
+2025-10-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,972,5.06,4918.32,BRL,Active,90
+2025-10-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-011,1597,4.0,6388.0,BRL,No Contract,45
+2025-10-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-001,832,3.58,2978.56,BRL,Active,90
+2025-10-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-017,2151,4.07,8754.57,BRL,Expired,60
+2025-10-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-007,2921,2.78,8120.38,BRL,Active,60
+2025-10-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-018,1110,3.88,4306.8,BRL,Active,45
+2025-10-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-001,2382,3.02,7193.64,BRL,No Contract,60
+2025-10-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,1355,4.9,6639.5,BRL,No Contract,45
+2025-10-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-010,2124,3.85,8177.4,BRL,No Contract,45
+2025-10-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-007,2132,3.28,6992.96,BRL,Active,30
+2025-10-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-018,1766,3.99,7046.34,BRL,No Contract,60
+2025-10-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-006,271,4.84,1311.64,BRL,Active,90
+2025-10-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,2423,3.94,9546.62,BRL,Active,45
+2025-10-01,PackCo A,Packaging,Corrugated,Campinas,BOX-019,2964,4.65,13782.6,BRL,Active,90
+2025-10-01,EcoPack,Packaging,Corrugated,Campinas,BOX-018,214,4.52,967.28,BRL,Active,45
+2025-10-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-005,2026,4.69,9501.94,BRL,Active,60
+2025-10-01,PackCo A,Packaging,Corrugated,Campinas,BOX-004,1643,4.59,7541.37,BRL,No Contract,90
+2025-10-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-006,498,5.18,2579.64,BRL,Active,60
+2025-10-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-001,1062,3.08,3270.96,BRL,Expired,45
+2025-10-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-008,1729,3.39,5861.31,BRL,Active,45
+2025-10-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-020,2349,5.07,11909.43,BRL,No Contract,60
+2025-10-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-004,658,4.38,2882.04,BRL,Active,45
+2025-10-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-015,2059,3.36,6918.24,BRL,Active,30
+2025-10-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,290,3.97,1151.3,BRL,No Contract,60
+2025-10-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-004,1351,4.41,5957.91,BRL,Active,60
+2025-10-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-003,234,4.18,978.12,BRL,No Contract,90
+2025-10-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-006,739,4.96,3665.44,BRL,Active,60
+2025-10-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-009,732,3.38,2474.16,BRL,Active,30
+2025-10-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-009,2085,3.79,7902.15,BRL,Expired,30
+2025-10-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-018,2720,4.21,11451.2,BRL,Active,30
+2025-10-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,804,3.03,2436.12,BRL,Expired,90
+2025-10-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-013,524,4.79,2509.96,BRL,Active,90
+2025-11-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-007,1062,2.88,3058.56,BRL,Active,30
+2025-11-01,PackCo A,Packaging,Corrugated,Campinas,BOX-009,1668,3.6,6004.8,BRL,Active,90
+2025-11-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-019,531,4.4,2336.4,BRL,Active,45
+2025-11-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-004,2555,4.07,10398.85,BRL,Active,60
+2025-11-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-018,2995,4.03,12069.85,BRL,Active,60
+2025-11-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-015,889,3.41,3031.49,BRL,Expired,60
+2025-11-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-014,2578,2.65,6831.7,BRL,Active,45
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-002,2783,3.48,9684.84,BRL,Active,30
+2025-11-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-016,1108,3.47,3844.76,BRL,Active,45
+2025-11-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-004,720,4.11,2959.2,BRL,Active,45
+2025-11-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-005,2256,5.41,12204.96,BRL,Active,60
+2025-11-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-006,1525,5.05,7701.25,BRL,Active,90
+2025-11-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-016,995,3.48,3462.6,BRL,Active,60
+2025-11-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,1595,4.52,7209.4,BRL,Active,90
+2025-11-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-002,1334,3.75,5002.5,BRL,Active,90
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-003,2044,3.86,7889.84,BRL,No Contract,30
+2025-11-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-013,2078,5.25,10909.5,BRL,Active,60
+2025-11-01,PackCo A,Packaging,Corrugated,Joinville,BOX-004,2556,4.41,11271.96,BRL,No Contract,45
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-005,1125,4.45,5006.25,BRL,Active,30
+2025-11-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,212,3.48,737.76,BRL,No Contract,90
+2025-11-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-014,789,2.67,2106.63,BRL,Active,45
+2025-11-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-006,613,5.69,3487.97,BRL,Expired,30
+2025-11-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-016,734,3.29,2414.86,BRL,No Contract,45
+2025-11-01,EcoPack,Packaging,Corrugated,Campinas,BOX-004,2524,4.58,11559.92,BRL,No Contract,60
+2025-11-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-011,290,4.39,1273.1,BRL,Active,60
+2025-11-01,PackCo A,Packaging,Corrugated,Campinas,BOX-005,2986,4.69,14004.34,BRL,Active,60
+2025-11-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-004,1464,4.97,7276.08,BRL,Expired,90
+2025-11-01,PackCo A,Packaging,Corrugated,Campinas,BOX-002,2896,3.56,10309.76,BRL,Active,45
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-002,2744,3.56,9768.64,BRL,No Contract,30
+2025-11-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-017,1527,3.88,5924.76,BRL,Active,90
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,662,4.74,3137.88,BRL,Active,45
+2025-11-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,1098,4.0,4392.0,BRL,No Contract,60
+2025-11-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-020,1211,5.15,6236.65,BRL,Expired,30
+2025-11-01,PackCo A,Packaging,Corrugated,Campinas,BOX-014,616,3.02,1860.32,BRL,Expired,45
+2025-11-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-015,870,3.34,2905.8,BRL,Active,60
+2025-11-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-003,1262,3.69,4656.78,BRL,Active,90
+2025-12-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-019,2182,4.85,10582.7,BRL,Active,30
+2025-12-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-004,1492,4.11,6132.12,BRL,No Contract,45
+2025-12-01,PackCo A,Packaging,Corrugated,Campinas,BOX-003,2205,4.08,8996.4,BRL,Active,60
+2025-12-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-013,1064,5.11,5437.04,BRL,No Contract,45
+2025-12-01,PackCo A,Packaging,Corrugated,Campinas,BOX-020,1094,5.16,5645.04,BRL,Active,60
+2025-12-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,2669,5.02,13398.38,BRL,No Contract,60
+2025-12-01,PrimePack,Packaging,Corrugated,Joinville,BOX-007,2317,2.88,6672.96,BRL,Active,45
+2025-12-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-020,857,5.3,4542.1,BRL,Active,45
+2025-12-01,PrimePack,Packaging,Corrugated,Joinville,BOX-004,350,4.44,1554.0,BRL,No Contract,60
+2025-12-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,2246,4.1,9208.6,BRL,No Contract,30
+2025-12-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-005,1838,4.82,8859.16,BRL,Expired,45
+2025-12-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-013,2780,5.79,16096.2,BRL,Active,60
+2025-12-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-019,698,4.74,3308.52,BRL,No Contract,30
+2025-12-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-007,1091,2.57,2803.87,BRL,Expired,90
+2025-12-01,PackCo A,Packaging,Corrugated,Campinas,BOX-004,230,4.19,963.7,BRL,Active,30
+2025-12-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-005,1637,5.14,8414.18,BRL,Expired,45
+2025-12-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-017,209,3.67,767.03,BRL,Active,90
+2025-12-01,PackCo A,Packaging,Corrugated,Joinville,BOX-018,1206,4.46,5378.76,BRL,No Contract,60
+2025-12-01,PackCo A,Packaging,Corrugated,Campinas,BOX-013,1106,5.02,5552.12,BRL,Active,60
+2025-12-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,276,3.69,1018.44,BRL,Active,60
+2025-12-01,EcoPack,Packaging,Corrugated,Joinville,BOX-003,848,4.51,3824.48,BRL,Active,30
+2025-12-01,PackCo A,Packaging,Corrugated,Joinville,BOX-006,2227,5.23,11647.21,BRL,Active,30
+2025-12-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-019,1086,5.15,5592.9,BRL,Active,30
+2025-12-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-002,733,3.46,2536.18,BRL,Active,30
+2025-12-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-015,2285,3.01,6877.85,BRL,Active,90
+2025-12-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-005,202,4.42,892.84,BRL,Active,60
+2025-12-01,PackCo A,Packaging,Corrugated,Campinas,BOX-003,2320,4.05,9396.0,BRL,No Contract,45
+2025-12-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-009,2974,3.83,11390.42,BRL,Active,30
+2025-12-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-014,494,2.73,1348.62,BRL,Active,60
+2025-12-01,EcoPack,Packaging,Corrugated,Campinas,BOX-010,2839,4.22,11980.58,BRL,Active,90
+2025-12-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-009,1845,3.32,6125.4,BRL,No Contract,60
+2025-12-01,LocalFlex,Packaging,Corrugated,Joinville,BOX-015,2594,3.76,9753.44,BRL,Active,45
+2025-12-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-011,2808,4.66,13085.28,BRL,Active,60
+2025-12-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-013,2777,4.56,12663.12,BRL,Active,90
+2025-12-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-017,1131,3.85,4354.35,BRL,No Contract,30
+2025-12-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-008,1833,3.16,5792.28,BRL,Active,60
+2026-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-009,1111,3.67,4077.37,BRL,Active,60
+2026-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-020,2196,5.01,11001.96,BRL,No Contract,30
+2026-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-014,1757,2.71,4761.47,BRL,Active,90
+2026-01-01,EcoPack,Packaging,Corrugated,Campinas,BOX-016,462,3.8,1755.6,BRL,Active,45
+2026-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-016,1324,3.93,5203.32,BRL,Active,60
+2026-01-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-014,1004,2.62,2630.48,BRL,Active,90
+2026-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-009,739,3.73,2756.47,BRL,Expired,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-007,2429,3.11,7554.19,BRL,Expired,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-013,2739,5.4,14790.6,BRL,Active,60
+2026-01-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-011,2637,4.02,10600.74,BRL,Expired,30
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-015,969,3.15,3052.35,BRL,Active,60
+2026-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-007,844,2.6,2194.4,BRL,Active,45
+2026-01-01,EcoPack,Packaging,Corrugated,Campinas,BOX-004,992,4.72,4682.24,BRL,Active,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-016,2981,3.61,10761.41,BRL,No Contract,90
+2026-01-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-006,313,5.38,1683.94,BRL,No Contract,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-009,780,3.83,2987.4,BRL,No Contract,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-016,2021,3.61,7295.81,BRL,Active,60
+2026-01-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-020,2062,5.67,11691.54,BRL,No Contract,45
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-010,2669,4.04,10782.76,BRL,No Contract,60
+2026-01-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-009,1681,3.57,6001.17,BRL,No Contract,90
+2026-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-011,2702,4.43,11969.86,BRL,Active,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-011,2730,4.61,12585.3,BRL,Active,45
+2026-01-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-012,2547,5.01,12760.47,BRL,Active,60
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-008,1869,3.24,6055.56,BRL,Expired,60
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-012,1967,4.82,9480.94,BRL,Active,60
+2026-01-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-003,2379,3.91,9301.89,BRL,Active,60
+2026-01-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-007,2554,2.6,6640.4,BRL,Active,60
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-020,2674,5.07,13557.18,BRL,Expired,30
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-007,1305,2.98,3888.9,BRL,No Contract,60
+2026-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-020,2380,5.03,11971.4,BRL,No Contract,45
+2026-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,1656,4.06,6723.36,BRL,Expired,45
+2026-01-01,PackCo A,Packaging,Corrugated,Campinas,BOX-003,2728,4.02,10966.56,BRL,No Contract,30
+2026-01-01,PackCo A,Packaging,Corrugated,Joinville,BOX-016,1982,3.8,7531.6,BRL,Active,30
+2026-01-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-012,1974,4.26,8409.24,BRL,Active,30
+2026-01-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-005,1329,5.17,6870.93,BRL,Active,60
+2026-01-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-012,236,4.72,1113.92,BRL,Active,90
+2026-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-008,460,3.13,1439.8,BRL,Expired,45
+2026-01-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-010,743,4.05,3009.15,BRL,No Contract,90
+2026-01-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-005,560,4.62,2587.2,BRL,Active,90
+2026-01-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,1581,4.19,6624.39,BRL,Active,45
+2026-02-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-016,1166,3.72,4337.52,BRL,Active,90
+2026-02-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-013,573,5.09,2916.57,BRL,Active,60
+2026-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-011,2187,4.35,9513.45,BRL,No Contract,60
+2026-02-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-001,1659,2.97,4927.23,BRL,Active,30
+2026-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-009,1159,3.8,4404.2,BRL,Active,60
+2026-02-01,PackCo A,Packaging,Corrugated,Campinas,BOX-014,1802,2.9,5225.8,BRL,No Contract,90
+2026-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,1831,3.58,6554.98,BRL,Active,45
+2026-02-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-009,2288,3.7,8465.6,BRL,Active,45
+2026-02-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-017,2289,4.24,9705.36,BRL,Active,90
+2026-02-01,PackCo A,Packaging,Corrugated,Joinville,BOX-003,2253,3.96,8921.88,BRL,Active,60
+2026-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-009,2212,3.27,7233.24,BRL,No Contract,60
+2026-02-01,EcoPack,Packaging,Corrugated,Joinville,BOX-018,2618,4.77,12487.86,BRL,Active,60
+2026-02-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-019,717,5.32,3814.44,BRL,Active,60
+2026-02-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-011,2930,4.25,12452.5,BRL,Active,30
+2026-02-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-019,2617,4.25,11122.25,BRL,Expired,60
+2026-02-01,PackCo A,Packaging,Corrugated,Campinas,BOX-007,2297,2.92,6707.24,BRL,No Contract,60
+2026-02-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-001,1597,3.38,5397.86,BRL,Active,60
+2026-02-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-004,324,4.55,1474.2,BRL,Active,60
+2026-02-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,427,4.1,1750.7,BRL,Active,60
+2026-02-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-014,1077,2.93,3155.61,BRL,Expired,30
+2026-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-017,2802,4.27,11964.54,BRL,Active,60
+2026-02-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-018,998,4.01,4001.98,BRL,No Contract,45
+2026-02-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-017,1248,4.0,4992.0,BRL,No Contract,90
+2026-02-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-014,2441,2.56,6248.96,BRL,Active,90
+2026-02-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-013,891,5.6,4989.6,BRL,No Contract,30
+2026-02-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-018,1729,5.01,8662.29,BRL,Active,30
+2026-02-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-008,2378,3.46,8227.88,BRL,Active,45
+2026-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-020,1097,4.88,5353.36,BRL,Active,45
+2026-02-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-015,1021,3.39,3461.19,BRL,No Contract,60
+2026-02-01,EcoPack,Packaging,Corrugated,Joinville,BOX-010,2135,4.17,8902.95,BRL,No Contract,45
+2026-02-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-006,1510,5.48,8274.8,BRL,Active,45
+2026-02-01,PrimePack,Packaging,Corrugated,Campinas,BOX-007,1378,2.85,3927.3,BRL,No Contract,45
+2026-02-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-015,1804,2.92,5267.68,BRL,Active,90
+2026-02-01,PrimePack,Packaging,Corrugated,Campinas,BOX-001,1466,3.09,4529.94,BRL,No Contract,45
+2026-02-01,PackCo A,Packaging,Corrugated,Joinville,BOX-017,1176,4.11,4833.36,BRL,Active,45
+2026-02-01,PrimePack,Packaging,Corrugated,Joinville,BOX-005,854,4.65,3971.1,BRL,Active,90
+2026-02-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-016,648,3.59,2326.32,BRL,No Contract,60
+2026-02-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,2298,4.79,11007.42,BRL,Expired,60
+2026-02-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-001,1742,3.89,6776.38,BRL,Active,90
+2026-02-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-019,1832,4.91,8995.12,BRL,Active,45
+2026-02-01,PackCo A,Packaging,Corrugated,Joinville,BOX-001,1514,3.48,5268.72,BRL,Active,90
+2026-02-01,EcoPack,Packaging,Corrugated,Campinas,BOX-006,2958,5.55,16416.9,BRL,No Contract,30
+2026-02-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-020,2971,4.76,14141.96,BRL,Active,45
+2026-02-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-002,1263,4.06,5127.78,BRL,No Contract,90
+2026-02-01,PrimePack,Packaging,Corrugated,Joinville,BOX-002,237,3.58,848.46,BRL,Active,45
+2026-02-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-020,2353,5.02,11812.06,BRL,Active,45
+2026-02-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-015,1237,3.34,4131.58,BRL,No Contract,30
+2026-02-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-015,242,3.2,774.4,BRL,Active,30
+2026-02-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-001,1669,3.26,5440.94,BRL,Active,60
+2026-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-019,630,4.55,2866.5,BRL,Active,60
+2026-03-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-012,2895,4.49,12998.55,BRL,Active,45
+2026-03-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-010,2813,4.03,11336.39,BRL,Expired,45
+2026-03-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-018,1014,4.55,4613.7,BRL,Active,45
+2026-03-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-002,2900,3.46,10034.0,BRL,Active,60
+2026-03-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-017,360,4.18,1504.8,BRL,Active,60
+2026-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-020,2662,4.7,12511.4,BRL,No Contract,60
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-019,1652,5.02,8293.04,BRL,Active,45
+2026-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-004,2927,4.11,12029.97,BRL,Active,30
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-002,569,3.6,2048.4,BRL,Active,45
+2026-03-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-008,2822,3.7,10441.4,BRL,No Contract,30
+2026-03-01,AlphaBox,Packaging,Corrugated,Joinville,BOX-019,1333,5.53,7371.49,BRL,Active,60
+2026-03-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-009,1647,3.85,6340.95,BRL,Active,90
+2026-03-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-010,1964,4.11,8072.04,BRL,Active,30
+2026-03-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-015,2258,2.89,6525.62,BRL,No Contract,90
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-019,459,4.78,2194.02,BRL,Expired,30
+2026-03-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,2298,4.76,10938.48,BRL,Active,60
+2026-03-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-005,433,4.87,2108.71,BRL,Active,45
+2026-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-005,1303,4.86,6332.58,BRL,No Contract,90
+2026-03-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-017,629,3.57,2245.53,BRL,Active,60
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-013,2386,5.07,12097.02,BRL,Active,90
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-008,2996,3.35,10036.6,BRL,Active,60
+2026-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-014,1604,2.81,4507.24,BRL,Active,45
+2026-03-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-006,2459,5.31,13057.29,BRL,Active,90
+2026-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-005,2176,4.32,9400.32,BRL,Active,45
+2026-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-001,1080,2.86,3088.8,BRL,Active,60
+2026-03-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-010,762,3.91,2979.42,BRL,No Contract,45
+2026-03-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-017,1277,3.74,4775.98,BRL,Active,45
+2026-03-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-012,1125,4.46,5017.5,BRL,Active,45
+2026-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-002,365,3.67,1339.55,BRL,No Contract,90
+2026-03-01,PackCo A,Packaging,Corrugated,Campinas,BOX-009,1909,3.66,6986.94,BRL,Active,30
+2026-03-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-012,2394,5.03,12041.82,BRL,Active,90
+2026-03-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-017,260,4.24,1102.4,BRL,Active,45
+2026-03-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-018,482,4.07,1961.74,BRL,Active,60
+2026-03-01,PackCo A,Packaging,Corrugated,Joinville,BOX-009,2159,3.73,8053.07,BRL,No Contract,90
+2026-03-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-013,2212,5.26,11635.12,BRL,No Contract,30
+2026-03-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-010,2965,4.36,12927.4,BRL,Active,45
+2026-03-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-019,750,4.81,3607.5,BRL,Active,90
+2026-03-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-001,1539,3.49,5371.11,BRL,Active,30
+2026-03-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-014,425,2.84,1207.0,BRL,Active,30
+2026-04-01,EcoPack,Packaging,Corrugated,Campinas,BOX-019,1132,5.24,5931.68,BRL,No Contract,45
+2026-04-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-014,1366,2.79,3811.14,BRL,Active,90
+2026-04-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-001,2936,3.26,9571.36,BRL,Active,45
+2026-04-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-012,1935,4.9,9481.5,BRL,No Contract,45
+2026-04-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-003,282,4.26,1201.32,BRL,Active,60
+2026-04-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-008,2542,3.46,8795.32,BRL,No Contract,60
+2026-04-01,EcoPack,Packaging,Corrugated,Campinas,BOX-007,1125,3.07,3453.75,BRL,No Contract,90
+2026-04-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-001,973,3.74,3639.02,BRL,Expired,45
+2026-04-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-015,972,3.27,3178.44,BRL,Active,30
+2026-04-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-001,1412,3.14,4433.68,BRL,Expired,60
+2026-04-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-013,2012,5.26,10583.12,BRL,Active,60
+2026-04-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-018,273,4.09,1116.57,BRL,Expired,60
+2026-04-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-012,2394,5.16,12353.04,BRL,No Contract,60
+2026-04-01,EcoPack,Packaging,Corrugated,Joinville,BOX-014,2422,3.21,7774.62,BRL,Active,60
+2026-04-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-012,277,4.38,1213.26,BRL,No Contract,60
+2026-04-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-020,2086,4.94,10304.84,BRL,No Contract,30
+2026-04-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-006,2068,5.08,10505.44,BRL,Active,90
+2026-04-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-009,2080,3.28,6822.4,BRL,Active,60
+2026-04-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-007,2850,2.76,7866.0,BRL,Active,45
+2026-04-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-002,1921,3.48,6685.08,BRL,Active,60
+2026-04-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-013,2705,4.85,13119.25,BRL,Active,90
+2026-04-01,PackCo A,Packaging,Corrugated,Campinas,BOX-011,2950,4.51,13304.5,BRL,Expired,45
+2026-04-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-004,561,4.34,2434.74,BRL,Active,60
+2026-04-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-004,273,4.59,1253.07,BRL,Active,30
+2026-04-01,PackCo A,Packaging,Corrugated,Joinville,BOX-008,1833,3.36,6158.88,BRL,Active,90
+2026-04-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-014,690,2.5,1725.0,BRL,No Contract,90
+2026-04-01,EcoPack,Packaging,Corrugated,Joinville,BOX-012,1404,5.32,7469.28,BRL,No Contract,60
+2026-04-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-005,1353,5.0,6765.0,BRL,Active,60
+2026-04-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-009,1971,3.41,6721.11,BRL,No Contract,90
+2026-04-01,PackCo A,Packaging,Corrugated,Campinas,BOX-015,1776,3.12,5541.12,BRL,Active,45
+2026-04-01,PrimePack,Packaging,Corrugated,Joinville,BOX-011,1959,4.31,8443.29,BRL,Expired,60
+2026-04-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-012,1681,4.81,8085.61,BRL,Active,45
+2026-04-01,PrimePack,Packaging,Corrugated,Campinas,BOX-016,1722,3.44,5923.68,BRL,Active,30
+2026-04-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-004,1970,4.73,9318.1,BRL,Active,60
+2026-04-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-017,2698,3.71,10009.58,BRL,Active,60
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-016,404,3.63,1466.52,BRL,No Contract,60
+2026-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,2287,4.77,10908.99,BRL,Active,60
+2026-05-01,EcoPack,Packaging,Corrugated,Campinas,BOX-005,1268,5.18,6568.24,BRL,No Contract,45
+2026-05-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-003,569,4.19,2384.11,BRL,Active,60
+2026-05-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-001,931,3.34,3109.54,BRL,Active,45
+2026-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-017,1116,3.52,3928.32,BRL,No Contract,90
+2026-05-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-013,304,5.02,1526.08,BRL,Expired,30
+2026-05-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-015,2009,3.35,6730.15,BRL,Active,90
+2026-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-008,1088,3.21,3492.48,BRL,Active,60
+2026-05-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-001,922,3.49,3217.78,BRL,Expired,30
+2026-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-007,1218,2.76,3361.68,BRL,Active,30
+2026-05-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-012,2644,4.46,11792.24,BRL,Active,30
+2026-05-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-015,2418,3.33,8051.94,BRL,No Contract,60
+2026-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-018,2310,4.04,9332.4,BRL,Expired,30
+2026-05-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-012,1048,4.66,4883.68,BRL,Active,45
+2026-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-020,2587,4.99,12909.13,BRL,Active,90
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-017,248,4.03,999.44,BRL,No Contract,60
+2026-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-014,1994,2.83,5643.02,BRL,Active,60
+2026-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-020,547,4.95,2707.65,BRL,Expired,60
+2026-05-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-012,1678,4.36,7316.08,BRL,Active,60
+2026-05-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-014,1804,3.0,5412.0,BRL,Active,45
+2026-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-005,662,4.37,2892.94,BRL,No Contract,60
+2026-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-009,298,3.43,1022.14,BRL,Active,60
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-009,488,3.69,1800.72,BRL,Active,60
+2026-05-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-004,2636,4.47,11782.92,BRL,Active,90
+2026-05-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-001,1791,2.98,5337.18,BRL,Active,45
+2026-05-01,LocalFlex,Packaging,Corrugated,Sao Paulo,BOX-019,2384,4.98,11872.32,BRL,Expired,60
+2026-05-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-005,724,4.86,3518.64,BRL,Active,30
+2026-05-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-007,2846,2.78,7911.88,BRL,Active,60
+2026-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-006,2331,4.84,11282.04,BRL,Active,45
+2026-05-01,PackCo A,Packaging,Corrugated,Campinas,BOX-006,2364,4.97,11749.08,BRL,Active,45
+2026-05-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-011,1236,4.12,5092.32,BRL,Active,45
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,1792,2.85,5107.2,BRL,Expired,30
+2026-05-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-014,1511,3.1,4684.1,BRL,Active,60
+2026-05-01,EcoPack,Packaging,Corrugated,Campinas,BOX-012,463,5.15,2384.45,BRL,Expired,60
+2026-05-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,2630,4.74,12466.2,BRL,Active,45
+2026-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-014,336,2.72,913.92,BRL,Active,45
+2026-05-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-006,1901,4.72,8972.72,BRL,Active,90
+2026-05-01,PrimePack,Packaging,Corrugated,Campinas,BOX-014,212,2.89,612.68,BRL,Active,30
+2026-05-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-004,2565,4.1,10516.5,BRL,Active,60
+2026-05-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-001,2749,3.14,8631.86,BRL,Expired,60
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-019,2231,4.84,10798.04,BRL,No Contract,60
+2026-05-01,PackCo A,Packaging,Corrugated,Joinville,BOX-014,768,3.02,2319.36,BRL,Active,45
+2026-05-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-004,942,4.45,4191.9,BRL,Active,90
+2026-05-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,2163,4.12,8911.56,BRL,Active,45
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-002,1248,3.44,4293.12,BRL,Expired,45
+2026-06-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-008,583,3.3,1923.9,BRL,Active,30
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-002,2064,3.68,7595.52,BRL,No Contract,90
+2026-06-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-013,2640,4.9,12936.0,BRL,No Contract,45
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-015,2553,3.15,8041.95,BRL,Active,90
+2026-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-001,2849,3.3,9401.7,BRL,No Contract,60
+2026-06-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-011,1271,4.25,5401.75,BRL,Active,45
+2026-06-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-013,1949,5.4,10524.6,BRL,Active,45
+2026-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-013,2419,5.1,12336.9,BRL,No Contract,90
+2026-06-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,1758,4.69,8245.02,BRL,Active,45
+2026-06-01,PrimePack,Packaging,Corrugated,Joinville,BOX-005,1675,4.63,7755.25,BRL,Active,45
+2026-06-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-009,1156,3.54,4092.24,BRL,Expired,90
+2026-06-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-013,428,4.83,2067.24,BRL,Active,30
+2026-06-01,EcoPack,Packaging,Corrugated,Joinville,BOX-010,2561,4.43,11345.23,BRL,Expired,45
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,2364,4.01,9479.64,BRL,Active,45
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-015,1279,3.01,3849.79,BRL,Active,45
+2026-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-008,924,3.28,3030.72,BRL,No Contract,60
+2026-06-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-015,2760,3.31,9135.6,BRL,No Contract,60
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-019,2023,4.63,9366.49,BRL,No Contract,90
+2026-06-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-014,2876,2.8,8052.8,BRL,No Contract,60
+2026-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-010,1918,3.7,7096.6,BRL,Active,60
+2026-06-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-020,1526,4.93,7523.18,BRL,Expired,60
+2026-06-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-001,2802,3.45,9666.9,BRL,Active,60
+2026-06-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-002,899,3.69,3317.31,BRL,Active,60
+2026-06-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,929,4.92,4570.68,BRL,Active,90
+2026-06-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-012,1773,5.03,8918.19,BRL,No Contract,45
+2026-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-008,606,2.79,1690.74,BRL,Active,60
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,1924,3.66,7041.84,BRL,Active,45
+2026-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-017,1671,3.57,5965.47,BRL,Active,60
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,2555,4.49,11471.95,BRL,No Contract,45
+2026-06-01,LocalFlex,Packaging,Corrugated,Curitiba,BOX-020,951,5.68,5401.68,BRL,Active,60
+2026-06-01,PackCo A,Packaging,Corrugated,Campinas,BOX-017,1026,4.11,4216.86,BRL,Active,90
+2026-06-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-006,403,5.31,2139.93,BRL,No Contract,45
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-005,346,4.5,1557.0,BRL,Active,60
+2026-06-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-014,2816,3.17,8926.72,BRL,Active,45
+2026-06-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-015,860,3.35,2881.0,BRL,No Contract,60
+2026-06-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-018,2436,4.07,9914.52,BRL,Active,30
+2026-06-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-008,2184,3.01,6573.84,BRL,Active,60
+2026-06-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-009,2579,3.7,9542.3,BRL,Active,30
+2026-06-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-009,1574,3.37,5304.38,BRL,Active,30
+2026-06-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-011,2924,4.73,13830.52,BRL,Expired,45
+2026-06-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-006,1826,5.23,9549.98,BRL,Active,30
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-020,1079,4.83,5211.57,BRL,Active,45
+2026-06-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-007,2322,2.85,6617.7,BRL,Active,60
+2026-06-01,PackCo A,Packaging,Corrugated,Joinville,BOX-013,2355,5.32,12528.6,BRL,Active,90
+2026-07-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-004,1767,4.33,7651.11,BRL,Active,90
+2026-07-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-010,1317,4.39,5781.63,BRL,No Contract,60
+2026-07-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,1187,3.93,4664.91,BRL,No Contract,30
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-002,1368,4.14,5663.52,BRL,Active,90
+2026-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-017,947,3.61,3418.67,BRL,No Contract,60
+2026-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-006,2336,4.91,11469.76,BRL,Active,30
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-006,2774,5.11,14175.14,BRL,Active,30
+2026-07-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-002,501,3.87,1938.87,BRL,Active,60
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-010,539,3.85,2075.15,BRL,Active,45
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-012,2594,4.93,12788.42,BRL,Active,60
+2026-07-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-007,2812,2.72,7648.64,BRL,Expired,60
+2026-07-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-007,2371,3.07,7278.97,BRL,No Contract,30
+2026-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-010,1022,3.6,3679.2,BRL,Active,30
+2026-07-01,PackCo A,Packaging,Corrugated,Campinas,BOX-003,2897,4.1,11877.7,BRL,Active,45
+2026-07-01,LocalFlex,Packaging,Corrugated,Campinas,BOX-011,2898,4.97,14403.06,BRL,Active,45
+2026-07-01,SulCaixas,Packaging,Corrugated,Sao Paulo,BOX-004,425,4.32,1836.0,BRL,Active,30
+2026-07-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-013,1637,5.58,9134.46,BRL,No Contract,60
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-019,1388,5.03,6981.64,BRL,Active,45
+2026-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-007,1509,2.79,4210.11,BRL,Active,60
+2026-07-01,PackCo A,Packaging,Corrugated,Campinas,BOX-013,1209,5.14,6214.26,BRL,No Contract,60
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-017,864,3.67,3170.88,BRL,Active,45
+2026-07-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-007,672,2.96,1989.12,BRL,Active,90
+2026-07-01,PrimePack,Packaging,Corrugated,Campinas,BOX-014,1959,2.69,5269.71,BRL,No Contract,90
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-007,1156,2.74,3167.44,BRL,Active,45
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-014,469,3.0,1407.0,BRL,Expired,90
+2026-07-01,PackCo A,Packaging,Corrugated,Joinville,BOX-013,2469,5.04,12443.76,BRL,No Contract,60
+2026-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-011,1788,4.62,8260.56,BRL,No Contract,60
+2026-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-018,2229,4.74,10565.46,BRL,Active,45
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-003,902,3.94,3553.88,BRL,Active,30
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-009,1755,3.43,6019.65,BRL,Active,60
+2026-07-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-010,2385,4.33,10327.05,BRL,Active,30
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-004,570,4.25,2422.5,BRL,No Contract,60
+2026-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-005,288,4.23,1218.24,BRL,Active,45
+2026-07-01,EcoPack,Packaging,Corrugated,Joinville,BOX-019,2497,5.08,12684.76,BRL,No Contract,45
+2026-07-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-006,2688,5.17,13896.96,BRL,Active,60
+2026-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-005,2638,4.58,12082.04,BRL,No Contract,60
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-007,1550,2.83,4386.5,BRL,No Contract,30
+2026-07-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-007,2827,2.66,7519.82,BRL,No Contract,90
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-010,832,3.64,3028.48,BRL,Active,60
+2026-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-001,2019,2.95,5956.05,BRL,Active,60
+2026-07-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-012,1350,5.04,6804.0,BRL,Expired,60
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-015,1993,3.43,6835.99,BRL,Active,45
+2026-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-008,2601,2.98,7750.98,BRL,Expired,30
+2026-07-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-020,2176,4.62,10053.12,BRL,No Contract,90
+2026-07-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-020,1449,5.26,7621.74,BRL,Expired,45
+2026-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-020,2701,4.92,13288.92,BRL,Active,45
+2026-07-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-016,2242,3.54,7936.68,BRL,Active,60
+2026-07-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-003,1600,4.0,6400.0,BRL,Active,45
+2026-07-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-016,1375,3.89,5348.75,BRL,No Contract,60
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-003,2419,3.89,9409.91,BRL,No Contract,90
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-011,452,4.1,1853.2,BRL,Active,45
+2026-07-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-019,1188,4.65,5524.2,BRL,Active,45
+2026-08-01,EcoPack,Packaging,Corrugated,Campinas,BOX-018,1710,4.62,7900.2,BRL,Active,45
+2026-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-009,2181,3.49,7611.69,BRL,Active,30
+2026-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-011,1060,4.05,4293.0,BRL,Active,60
+2026-08-01,BoxBrasil,Packaging,Corrugated,Campinas,BOX-008,1741,3.09,5379.69,BRL,No Contract,60
+2026-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-010,1628,3.78,6153.84,BRL,No Contract,30
+2026-08-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-003,1371,4.21,5771.91,BRL,No Contract,60
+2026-08-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-011,653,4.31,2814.43,BRL,Active,30
+2026-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-015,2672,3.1,8283.2,BRL,Expired,45
+2026-08-01,AlphaBox,Packaging,Corrugated,Sao Paulo,BOX-009,1104,4.04,4460.16,BRL,Active,60
+2026-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-018,632,4.02,2540.64,BRL,Active,30
+2026-08-01,AlphaBox,Packaging,Corrugated,Curitiba,BOX-009,2195,4.02,8823.9,BRL,Active,90
+2026-08-01,BoxBrasil,Packaging,Corrugated,Curitiba,BOX-016,311,3.19,992.09,BRL,No Contract,45
+2026-08-01,PackCo A,Packaging,Corrugated,Campinas,BOX-017,847,4.04,3421.88,BRL,No Contract,30
+2026-08-01,CorrugaMax,Packaging,Corrugated,Sao Paulo,BOX-002,482,3.62,1744.84,BRL,Active,30
+2026-08-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-015,436,3.36,1464.96,BRL,Expired,60
+2026-08-01,PackCo A,Packaging,Corrugated,Campinas,BOX-018,2488,4.35,10822.8,BRL,Active,90
+2026-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-002,395,3.4,1343.0,BRL,Active,45
+2026-08-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-018,1706,4.42,7540.52,BRL,Active,60
+2026-08-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-018,2314,4.55,10528.7,BRL,Active,30
+2026-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-002,820,3.2,2624.0,BRL,Active,60
+2026-08-01,PrimePack,Packaging,Corrugated,Curitiba,BOX-016,2293,3.29,7543.97,BRL,Expired,60
+2026-08-01,PackCo A,Packaging,Corrugated,Campinas,BOX-020,1034,4.88,5045.92,BRL,Active,30
+2026-08-01,PrimePack,Packaging,Corrugated,Joinville,BOX-013,1048,5.21,5460.08,BRL,Active,45
+2026-08-01,SulCaixas,Packaging,Corrugated,Curitiba,BOX-009,500,3.63,1815.0,BRL,Active,60
+2026-08-01,EcoPack,Packaging,Corrugated,Campinas,BOX-001,1586,3.55,5630.3,BRL,Expired,60
+2026-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-018,1609,4.43,7127.87,BRL,No Contract,45
+2026-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-005,886,4.44,3933.84,BRL,Expired,60
+2026-08-01,EcoPack,Packaging,Corrugated,Campinas,BOX-003,406,4.29,1741.74,BRL,No Contract,60
+2026-08-01,SulCaixas,Packaging,Corrugated,Joinville,BOX-012,735,4.82,3542.7,BRL,Active,30
+2026-08-01,PackCo A,Packaging,Corrugated,Campinas,BOX-015,2884,3.22,9286.48,BRL,Active,60
+2026-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-003,2769,4.06,11242.14,BRL,Expired,90
+2026-08-01,PrimePack,Packaging,Corrugated,Sao Paulo,BOX-001,1596,3.17,5059.32,BRL,No Contract,30
+2026-08-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-004,1464,4.5,6588.0,BRL,Expired,45
+2026-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-018,1079,3.92,4229.68,BRL,Active,30
+2026-08-01,EcoPack,Packaging,Corrugated,Joinville,BOX-010,2253,4.39,9890.67,BRL,Active,60
+2026-08-01,CorrugaMax,Packaging,Corrugated,Joinville,BOX-018,2354,4.55,10710.7,BRL,Active,45
+2026-08-01,AlphaBox,Packaging,Corrugated,Campinas,BOX-018,1951,4.48,8740.48,BRL,Active,90
+2026-08-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-019,542,4.83,2617.86,BRL,Active,45
+2026-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-020,2105,4.77,10040.85,BRL,Active,45
+2026-08-01,EcoPack,Packaging,Corrugated,Curitiba,BOX-016,2827,3.65,10318.55,BRL,Active,90
+2026-08-01,EcoPack,Packaging,Corrugated,Sao Paulo,BOX-018,696,4.57,3180.72,BRL,Active,60
+2026-08-01,SulCaixas,Packaging,Corrugated,Campinas,BOX-009,355,3.86,1370.3,BRL,Active,45
+2026-08-01,CorrugaMax,Packaging,Corrugated,Curitiba,BOX-019,323,4.59,1482.57,BRL,No Contract,90
+2026-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-020,397,5.15,2044.55,BRL,Active,60
+2026-08-01,BoxBrasil,Packaging,Corrugated,Sao Paulo,BOX-011,2294,4.13,9474.22,BRL,Active,60
+2026-08-01,EcoPack,Packaging,Corrugated,Campinas,BOX-003,1674,4.12,6896.88,BRL,Active,45
+2026-08-01,BoxBrasil,Packaging,Corrugated,Joinville,BOX-012,2681,4.59,12305.79,BRL,Active,30
+2026-08-01,PackCo A,Packaging,Corrugated,Curitiba,BOX-012,2150,4.57,9825.5,BRL,No Contract,90
+2026-08-01,PackCo A,Packaging,Corrugated,Joinville,BOX-019,1036,4.82,4993.52,BRL,Active,45
+2026-08-01,CorrugaMax,Packaging,Corrugated,Campinas,BOX-017,2064,3.93,8111.52,BRL,No Contract,60
+2026-08-01,PackCo A,Packaging,Corrugated,Sao Paulo,BOX-001,827,3.14,2596.78,BRL,No Contract,90
