@@ -4,22 +4,85 @@ import numpy as np
 from pathlib import Path
 
 st.set_page_config(page_title="Category Strategy Copilot | Procurement in Motion", page_icon="◈", layout="wide")
-NAVY="#123463"; GOLD="#F4B42A"; BG="#F6F8FC"; TEXT="#172033"
+NAVY="#123463"; GOLD="#C98A1A"; BG="#F4F0E8"; TEXT="#172033"; BEIGE="#F4F0E8"; WHITE="#FFFFFF"
 
 st.markdown(f"""
 <style>
-.stApp {{background:{BG};color:{TEXT}}}
-.block-container {{padding-top:1rem;max-width:1450px}}
-section[data-testid="stSidebar"] {{background:{NAVY}}}
-section[data-testid="stSidebar"] * {{color:white}}
-section[data-testid="stSidebar"] input {{color:#172033 !important}}
-h1,h2,h3 {{color:{NAVY}}}
-div[data-testid="stMetric"] {{background:white;border:1px solid #E4E9F2;border-radius:16px;padding:14px}}
-.hero {{background:{NAVY};padding:24px 28px;border-radius:18px;color:white;margin-bottom:18px}}
-.hero h1 {{color:white;margin:0}}
-.hero p {{color:#DCE7FA;margin:.4rem 0 0}}
-.eyebrow {{color:{GOLD};font-size:.75rem;letter-spacing:.14em;font-weight:800}}
-.card {{background:white;border:1px solid #E4E9F2;border-radius:16px;padding:16px;margin:8px 0}}
+.stApp {{
+    background:{BG};
+    color:{TEXT};
+}}
+.block-container {{
+    padding-top:1.1rem;
+    max-width:1450px;
+}}
+section[data-testid="stSidebar"] {{
+    background:{BEIGE};
+    border-right:1px solid #DDD5C8;
+}}
+section[data-testid="stSidebar"] * {{
+    color:{NAVY};
+}}
+section[data-testid="stSidebar"] input {{
+    color:{TEXT} !important;
+    background:white !important;
+}}
+section[data-testid="stSidebar"] [data-baseweb="slider"] * {{
+    color:{NAVY};
+}}
+h1,h2,h3 {{
+    color:{NAVY};
+}}
+div[data-testid="stMetric"] {{
+    background:white;
+    border:1px solid #E2DDD4;
+    border-radius:16px;
+    padding:14px;
+    box-shadow:0 2px 8px rgba(18,52,99,.04);
+}}
+[data-testid="stFileUploader"] {{
+    background:white;
+    border:1px solid #E2DDD4;
+    border-radius:16px;
+    padding:8px;
+}}
+.hero {{
+    background:{BEIGE};
+    border:1px solid #DDD5C8;
+    border-left:6px solid {GOLD};
+    padding:24px 28px;
+    border-radius:18px;
+    color:{TEXT};
+    margin-bottom:18px;
+}}
+.hero h1 {{
+    color:{NAVY};
+    margin:0;
+}}
+.hero p {{
+    color:#5D6470;
+    margin:.4rem 0 0;
+}}
+.eyebrow {{
+    color:{NAVY};
+    font-size:.75rem;
+    letter-spacing:.14em;
+    font-weight:800;
+}}
+.brand-accent {{
+    color:{GOLD};
+}}
+.card {{
+    background:white;
+    border:1px solid #E2DDD4;
+    border-radius:16px;
+    padding:16px;
+    margin:8px 0;
+}}
+div[data-testid="stTabs"] button p {{
+    font-weight:700;
+    color:{NAVY};
+}}
 </style>
 """,unsafe_allow_html=True)
 
@@ -38,7 +101,7 @@ switching=st.sidebar.slider("Switching cost / complexity",1,5,3)
 alternatives=st.sidebar.slider("Qualified alternatives",1,5,2)
 quality=st.sidebar.slider("Quality / customer impact",1,5,4)
 
-st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT IN MOTION · STRATEGY + AI</div>
+st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT STRATEGY · GOVERNANCE · TRANSFORMATION</div>
 <h1>Category Strategy Copilot</h1><p>From procurement data to evidence-based, actionable category strategy.</p></div>""",unsafe_allow_html=True)
 
 uploaded=st.file_uploader("Upload procurement data",type=["csv","xlsx","xls"])
