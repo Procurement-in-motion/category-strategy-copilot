@@ -601,6 +601,35 @@ section[data-testid="stSidebar"] .nav-link {{
     margin-bottom:14px !important;
 }}
 
+
+/* v13 — keep title gap, make every inter-button gap identical */
+
+/* First card: preserve only the extra space below Navigation */
+section[data-testid="stSidebar"] div[data-testid="stButton"]:first-of-type {{
+    margin-top:16px !important;
+}}
+
+/* Every navigation row gets exactly the same 14px gap after it */
+section[data-testid="stSidebar"] div[data-testid="stButton"],
+section[data-testid="stSidebar"] .nav-link {{
+    margin-left:0 !important;
+    margin-right:0 !important;
+    margin-bottom:14px !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}}
+
+/* Prevent Streamlit wrappers around consecutive buttons from adding extra space */
+section[data-testid="stSidebar"] div[data-testid="stElementContainer"]:has(div[data-testid="stButton"]) {{
+    margin:0 !important;
+    padding:0 !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stElementContainer"]:has(.nav-link) {{
+    margin:0 !important;
+    padding:0 !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
