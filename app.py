@@ -155,15 +155,15 @@ Only **Supplier** and **Spend** are required to start; additional fields unlock 
     st.markdown("""**Minimum to start:** Supplier + Spend  
 **For richer insights:** add SKU, Unit Price, Quantity, Contract Status and Date.""")
 
-sample_path = Path(__file__).parent/"sample_corrugated_packaging.csv"
+sample_path = Path(__file__).parent/"sample_corrugated_packaging.xlsx"
 sample_col, guide_col = st.columns([1,2])
 with sample_col:
     if sample_path.exists():
         st.download_button(
             "Download sample dataset",
             data=sample_path.read_bytes(),
-            file_name="sample_corrugated_packaging.csv",
-            mime="text/csv",
+            file_name="sample_corrugated_packaging.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             use_container_width=True
         )
 with guide_col:
