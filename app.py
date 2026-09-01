@@ -133,9 +133,46 @@ st.markdown("""<div class="hero"><div class="eyebrow">PROCUREMENT STRATEGY <span
 <h1>Category Strategy Copilot</h1><p>From procurement data to evidence-based, actionable category strategy.</p></div>""",unsafe_allow_html=True)
 
 uploaded=st.file_uploader("Upload procurement data",type=["csv","xlsx","xls"])
+
+with st.expander("What data should I upload?", expanded=False):
+    st.markdown("""
+Upload **one CSV or Excel file** containing category-level procurement data.  
+Only **Supplier** and **Spend** are required to start; additional fields unlock richer analysis.
+""")
+    requirements = pd.DataFrame([
+        ["Supplier","Required","Supplier analysis, concentration and dependency"],
+        ["Spend","Required","Spend baseline, supplier share and HHI"],
+        ["Category","Recommended","Category scope and context validation"],
+        ["Date","Recommended","Spend and demand trends over time"],
+        ["Plant / Location","Optional","Site and geographic analysis"],
+        ["SKU / Material","Recommended","Comparable item and price analysis"],
+        ["Quantity","Recommended","Demand and volume analysis"],
+        ["Unit Price","Recommended","Comparable price variance"],
+        ["Contract Status","Recommended","Contract coverage and exposure"],
+        ["Payment Terms","Optional","Commercial terms analysis"],
+    ], columns=["Field","Status","Used for"])
+    st.dataframe(requirements, use_container_width=True, hide_index=True)
+    st.markdown("**Minimum to start:** Supplier + Spend  
+**For richer insights:** add SKU, Unit Price, Quantity, Contract Status and Date.")
+
+sample_path = Path(__file__).parent/"sample_corrugated_packaging.csv"
+sample_col, guide_col = st.columns([1,2])
+with sample_col:
+    if sample_path.exists():
+        st.download_button(
+            "Download sample dataset",
+            data=sample_path.read_bytes(),
+            file_name="sample_corrugated_packaging.csv",
+            mime="text/csv",
+            use_container_width=True
+        )
+with guide_col:
+    st.caption("Use the sample as a template for column structure. Your own file can contain additional fields.")
+
 if uploaded is None:
-    st.info("Upload the Corrugated Packaging sample or your own procurement dataset.")
+    st.info("Not sure what to upload? Review the required fields above or download the sample dataset.")
     st.stop()
+
 df=pd.read_csv(uploaded) if uploaded.name.lower().endswith(".csv") else pd.read_excel(uploaded)
 
 def col(names):
@@ -145,11 +182,52 @@ def col(names):
         if any(n.lower() in str(c).lower() for n in names): return c
     return None
 
-supplier=col(["supplier","vendor"]); spend=col(["spend","amount","value"])
-sku=col(["sku","material","item"]); price=col(["unit price","price"])
+supplier=col(["supplier","vendor"])
+spend=col(["spend","amount","value"])
+category_col=col(["category"])
+date_col=col(["date","invoice date","po date"])
+plant=col(["plant","site","location"])
+sku=col(["sku","material","item"])
+qty=col(["quantity","qty","volume"])
+price=col(["unit price","price"])
 contract=col(["contract status","contract"])
+payment=col(["payment terms","payment term"])
+
 if not supplier or not spend:
-    st.error("Required fields: Supplier and Spend."); st.stop()
+    st.error("The file cannot be analyzed yet. Required fields missing: Supplier and/or Spend.")
+    st.stop()
+
+analysis_readiness = [
+    ("Spend baseline", bool(spend), "Spend"),
+    ("Supplier concentration & HHI", bool(supplier and spend), "Supplier + Spend"),
+    ("Price variance", bool(sku and price), "SKU / Material + Unit Price"),
+    ("Demand / volume analysis", bool(qty), "Quantity"),
+    ("Trend analysis", bool(date_col), "Date"),
+    ("Plant / location analysis", bool(plant), "Plant / Location"),
+    ("Contract coverage", bool(contract), "Contract Status"),
+    ("Payment terms analysis", bool(payment), "Payment Terms"),
+]
+available_count = sum(1 for _, ready, _ in analysis_readiness if ready)
+total_analyses = len(analysis_readiness)
+
+st.markdown("### Data Readiness")
+r1, r2 = st.columns([1,3])
+with r1:
+    st.metric("Analyses available", f"{available_count}/{total_analyses}")
+with r2:
+    if available_count >= 7:
+        st.success("Strong dataset — most internal analyses are available.")
+    elif available_count >= 4:
+        st.info("Good starting point — some analyses will be limited by missing fields.")
+    else:
+        st.warning("Basic analysis only — add recommended fields to unlock richer insights.")
+
+ready_df = pd.DataFrame([
+    ["Ready" if ready else "Not available", analysis, fields]
+    for analysis, ready, fields in analysis_readiness
+], columns=["Status","Analysis","Required data"])
+st.dataframe(ready_df, use_container_width=True, hide_index=True)
+st.caption("Missing data is shown explicitly. The Copilot does not infer unavailable evidence.")
 
 df[spend]=pd.to_numeric(df[spend],errors="coerce").fillna(0)
 total=float(df[spend].sum()); ss=df.groupby(supplier)[spend].sum().sort_values(ascending=False)
