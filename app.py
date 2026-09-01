@@ -112,10 +112,10 @@ hr {{
     border-color:#DED6CA;
 }}
 
-div[data-testid="stMetricValue"] > div {
+div[data-testid="stMetricValue"] > div {{
     font-size: 2.05rem !important;
     line-height: 1.05 !important;
-}
+}}
 </style>
 """,unsafe_allow_html=True)
 
