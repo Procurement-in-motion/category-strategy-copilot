@@ -203,18 +203,32 @@ if logo.exists():
     st.sidebar.image(str(logo), use_container_width=True)
 
 if "pim_page" not in st.session_state:
-    st.session_state.pim_page = "Home"
+    st.session_state.pim_page = "Expertise"
 
 def go_to(page):
     st.session_state.pim_page = page
 
 st.sidebar.markdown("### Navigation")
-page = st.sidebar.radio(
-    "Procurement in Motion",
-    ["Home", "Projects", "About", "Approach", "Category Strategy Copilot"],
-    key="pim_page",
-    label_visibility="collapsed"
-)
+
+nav_items = [
+    ("⌂", "Expertise"),
+    ("▦", "Portfolio"),
+    ("◇", "Category Strategy Copilot"),
+]
+
+for icon, label in nav_items:
+    active = st.session_state.pim_page == label
+    btn_label = f"{icon}   {label}"
+    if st.sidebar.button(
+        btn_label,
+        key=f"nav_{label}",
+        use_container_width=True,
+        type="primary" if active else "secondary"
+    ):
+        st.session_state.pim_page = label
+        st.rerun()
+
+page = st.session_state.pim_page
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Portfolio status**")
@@ -235,75 +249,47 @@ def footer():
         unsafe_allow_html=True
     )
 
-if page == "Home":
+if page == "Expertise":
     hub_hero(
         "Procurement in Motion",
-        "Practical frameworks and AI-enabled solutions for modern Procurement."
-    )
-    st.markdown(
-        '<p class="intro">A portfolio connecting strategy, category management, sourcing, governance, processes, analytics and AI — designed to turn procurement information into clearer decisions and executable action.</p>',
-        unsafe_allow_html=True
+        "Procurement strategy, governance, transformation and AI — translated into practical frameworks and solutions."
     )
 
-    st.markdown("## Explore the portfolio")
-    c1, c2 = st.columns(2)
-    with c1:
-        st.markdown("""<div class="project-card active">
-        <span class="status">WIP · FUNCTIONAL MVP</span>
-        <h3>Category Strategy Copilot</h3>
-        <p>Turn spend, business requirements, supplier dynamics, market intelligence and risk into an evidence-based, actionable category strategy.</p>
-        </div>""", unsafe_allow_html=True)
-        st.button(
-            "Open Category Strategy Copilot →",
-            type="primary",
-            use_container_width=True,
-            on_click=go_to,
-            args=("Category Strategy Copilot",)
-        )
-    with c2:
-        st.markdown("""<div class="project-card">
-        <span class="status">TO BE INITIATED</span>
-        <h3>Strategic Sourcing Event</h3>
-        <p>Guide the sourcing journey from scope and requirements through market engagement, RFI/RFP/RFQ, bid analysis, negotiation, supplier selection and award.</p>
-        </div>""", unsafe_allow_html=True)
+    st.markdown("## Expertise")
+    st.markdown("""<div class="about-card">
+    <p>Procurement and business excellence experience across global, regional and local organizations, combining Strategic Sourcing, Category Management, Procurement Excellence, Source-to-Contract, Source-to-Pay, supplier governance, analytics and digital transformation.</p>
+    <p>The common thread is turning complex procurement environments into clearer strategies, scalable processes, stronger governance and practical tools that support better decisions.</p>
+    </div>""", unsafe_allow_html=True)
 
-    c3, c4 = st.columns(2)
-    with c3:
-        st.markdown("""<div class="project-card">
-        <span class="status">TO BE INITIATED</span>
-        <h3>Negotiation Framework</h3>
-        <p>A disciplined and evidence-based approach to negotiation preparation, scenarios, BATNA, targets, concessions, total value and documented outcomes.</p>
-        </div>""", unsafe_allow_html=True)
-    with c4:
-        st.markdown("""<div class="project-card">
-        <span class="status">TO BE INITIATED</span>
-        <h3>Procurement Governance Architecture</h3>
-        <p>Connect policy, process, risk, controls, approvals, evidence, exceptions and performance across the Procurement lifecycle.</p>
-        </div>""", unsafe_allow_html=True)
-
-    st.markdown("## Procurement in Motion")
+    st.markdown("## Core capabilities")
     p1,p2,p3,p4,p5 = st.columns(5)
     pillars = [
         ("01","Strategy","Translate business priorities into procurement direction."),
         ("02","Category","Connect spend, demand, suppliers, markets and risk."),
         ("03","Process","Design clear and scalable ways of working."),
         ("04","Systems","Enable decisions and controls through digital workflows."),
-        ("05","Analytics","Turn data into evidence, insight and action.")
+        ("05","Analytics & AI","Turn data into evidence, insight and action.")
     ]
     for col_, (num,title,desc) in zip([p1,p2,p3,p4,p5], pillars):
         with col_:
             st.markdown(f'<div class="pillar"><div class="num">{num}</div><h4>{title}</h4><p>{desc}</p></div>', unsafe_allow_html=True)
 
+    st.markdown("## Procurement in Motion")
+    st.markdown("""<div class="about-card">
+    <p>Procurement in Motion is a practical portfolio exploring how Procurement can become more strategic, scalable and decision-oriented through better frameworks, governance, analytics and AI-enabled ways of working.</p>
+    <p>The focus is practical: understand the decision, build the evidence, design the process and governance, and then determine where technology and AI can genuinely strengthen the outcome.</p>
+    </div>""", unsafe_allow_html=True)
+
     footer()
     st.stop()
 
-if page == "Projects":
+if page == "Portfolio":
     hub_hero(
-        "Projects",
-        "A growing portfolio of Procurement frameworks and AI-enabled tools."
+        "Portfolio",
+        "A growing portfolio of practical Procurement frameworks and AI-enabled tools."
     )
     st.markdown('<div class="gold-label">WORK IN PROGRESS (WIP)</div>', unsafe_allow_html=True)
-    st.markdown("## Selected Portfolio")
+    st.markdown("## Selected projects")
 
     projects = [
         ("01","Category Strategy Copilot","WIP",
@@ -326,88 +312,52 @@ if page == "Projects":
         )
         if title == "Category Strategy Copilot":
             st.button(
-                "Open project →",
+                "Open project  →",
                 type="primary",
-                key="open_project_projects",
+                key="open_project_portfolio",
                 on_click=go_to,
                 args=("Category Strategy Copilot",)
             )
     footer()
     st.stop()
 
-if page == "About":
-    hub_hero(
-        "About",
-        "Procurement experience translated into practical frameworks, governance and digital solutions."
-    )
-    st.markdown("## About Larissa Mota")
-    st.markdown("""<div class="about-card">
-    <p>Procurement and business excellence professional with experience across global, regional and local organizations, combining Strategic Sourcing, Category Management, Procurement Excellence, Source-to-Contract, Source-to-Pay, supplier governance, analytics and digital transformation.</p>
-    <p>The common thread is turning complex procurement environments into clearer strategies, scalable processes, stronger governance and practical tools that support better decisions.</p>
-    </div>""", unsafe_allow_html=True)
-
-    st.markdown("## Core capabilities")
-    a,b,c = st.columns(3)
-    with a:
-        st.markdown("""<div class="pillar"><div class="num">STRATEGY</div><h4>Strategic Sourcing & Category</h4><p>Category strategy, sourcing, negotiation, supplier portfolio and value creation.</p></div>""", unsafe_allow_html=True)
-    with b:
-        st.markdown("""<div class="pillar"><div class="num">EXCELLENCE</div><h4>Governance & Transformation</h4><p>Processes, policies, controls, operating models, CLM and procurement transformation.</p></div>""", unsafe_allow_html=True)
-    with c:
-        st.markdown("""<div class="pillar"><div class="num">DIGITAL</div><h4>Analytics, Automation & AI</h4><p>KPIs, dashboards, workflows, automation and AI-enabled procurement use cases.</p></div>""", unsafe_allow_html=True)
-
-    st.markdown("## Procurement in Motion")
-    st.write(
-        "Procurement in Motion is a practical portfolio for exploring how Procurement can become more strategic, scalable and decision-oriented through better frameworks, governance, analytics and AI-enabled ways of working."
-    )
-    footer()
-    st.stop()
-
-if page == "Approach":
-    hub_hero(
-        "Approach",
-        "Start with the decision. Build the evidence. Define the process and governance. Then determine where technology and AI can strengthen the outcome."
-    )
-    st.markdown("## How the approach works")
-    steps = [
-        ("01","Decision","Define the business or Procurement decision that needs to be improved."),
-        ("02","Evidence","Identify the internal data, external intelligence and human inputs required."),
-        ("03","Process","Create a clear workflow from input through analysis, decision and execution."),
-        ("04","Governance","Define policies, controls, approvals, exceptions and evidence requirements."),
-        ("05","Technology & AI","Use automation and AI where they improve speed, consistency, insight or user experience."),
-        ("06","Human validation","Keep accountable judgment and approval with the appropriate people.")
-    ]
-    for num,title,desc in steps:
-        st.markdown(f'<div class="about-card"><span class="gold-label">{num}</span><h3>{title}</h3><p>{desc}</p></div>', unsafe_allow_html=True)
-
-    st.markdown("## Design principles")
-    st.markdown(
-        "**Evidence before recommendation · Assumptions made explicit · Confidence visible · "
-        "Opportunity is not automatically savings · External intelligence requires sources · "
-        "AI supports decisions; it does not replace accountable judgment.**"
-    )
-    footer()
-    st.stop()
-
 # ---------------------------
 # CATEGORY STRATEGY COPILOT
 # ---------------------------
+if st.button("‹  Back to Portfolio", key="back_to_portfolio"):
+    st.session_state.pim_page = "Portfolio"
+    st.rerun()
+
 hub_hero(
     "Category Strategy Copilot",
     "From procurement data to evidence-based, actionable category strategy."
 )
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Category Context")
-category=st.sidebar.text_input("Category","Corrugated Packaging")
-geography=st.sidebar.text_input("Geography","Brazil")
-industry=st.sidebar.text_input("Business / Industry","Industrial Equipment")
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Strategic Inputs")
-criticality=st.sidebar.slider("Operational criticality",1,5,4)
-qualification=st.sidebar.slider("Supplier qualification difficulty",1,5,4)
-switching=st.sidebar.slider("Switching cost / complexity",1,5,3)
-alternatives=st.sidebar.slider("Qualified alternatives",1,5,2)
-quality=st.sidebar.slider("Quality / customer impact",1,5,4)
+st.markdown("## Category setup")
+st.caption("Define the category context and strategic inputs before analyzing the procurement data.")
+
+with st.container(border=True):
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        category = st.text_input("Category", "Corrugated Packaging")
+    with c2:
+        geography = st.text_input("Geography", "Brazil")
+    with c3:
+        industry = st.text_input("Business / Industry", "Industrial Equipment")
+
+    st.markdown("#### Strategic inputs")
+    s1, s2, s3 = st.columns(3)
+    with s1:
+        criticality = st.slider("Operational criticality", 1, 5, 4)
+        switching = st.slider("Switching cost / complexity", 1, 5, 3)
+    with s2:
+        qualification = st.slider("Supplier qualification difficulty", 1, 5, 4)
+        alternatives = st.slider("Qualified alternatives", 1, 5, 2)
+    with s3:
+        quality = st.slider("Quality / customer impact", 1, 5, 4)
+        st.caption("1 = lower · 5 = higher")
+
+st.markdown("")
 
 uploaded=st.file_uploader("Upload procurement data",type=["csv","xlsx","xls"])
 
