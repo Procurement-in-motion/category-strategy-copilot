@@ -590,12 +590,15 @@ section[data-testid="stSidebar"] .nav-link a:hover {{
 }}
 
 
-/* v11 — slightly more breathing room below Navigation title */
-.nav-menu-start {{
-    height:10px !important;
-    min-height:10px !important;
-    margin:0 !important;
-    padding:0 !important;
+/* v12 — reliable spacing below the Navigation heading */
+section[data-testid="stSidebar"] div[data-testid="stButton"]:first-of-type {{
+    margin-top:16px !important;
+}}
+
+/* Preserve the exact equal spacing between menu items from v10 */
+section[data-testid="stSidebar"] div[data-testid="stButton"],
+section[data-testid="stSidebar"] .nav-link {{
+    margin-bottom:14px !important;
 }}
 
 </style>
