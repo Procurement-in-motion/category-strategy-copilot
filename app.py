@@ -448,6 +448,72 @@ section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid=
     font-weight:400 !important;
 }}
 
+
+/* v9 — exact menu rhythm + capability card fit */
+
+/* Remove Streamlit wrapper spacing differences */
+section[data-testid="stSidebar"] div[data-testid="stButton"],
+section[data-testid="stSidebar"] .nav-link {{
+    margin:0 !important;
+}}
+
+/* Use the same 12px gap after EVERY navigation row */
+section[data-testid="stSidebar"] div[data-testid="stButton"] {{
+    margin-bottom:12px !important;
+}}
+section[data-testid="stSidebar"] .nav-link {{
+    margin-bottom:12px !important;
+}}
+
+/* Identical menu card geometry */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button,
+section[data-testid="stSidebar"] .nav-link a {{
+    width:100% !important;
+    height:3.25rem !important;
+    min-height:3.25rem !important;
+    padding:.45rem .8rem !important;
+    margin:0 !important;
+    border-radius:14px !important;
+    box-sizing:border-box !important;
+    font-family:"Segoe UI", Arial, sans-serif !important;
+    font-size:.96rem !important;
+    font-weight:400 !important;
+    line-height:1.2 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    text-align:center !important;
+}}
+
+/* Capability cards: equal, taller, and text-safe */
+.pillar {{
+    height:260px !important;
+    min-height:260px !important;
+    padding:20px 18px !important;
+    display:flex !important;
+    flex-direction:column !important;
+    overflow:visible !important;
+}}
+
+.pillar .num {{
+    flex:0 0 auto !important;
+}}
+
+.pillar h4 {{
+    min-height:62px !important;
+    margin:.72rem 0 .55rem !important;
+    font-size:1.18rem !important;
+    line-height:1.18 !important;
+    flex:0 0 auto !important;
+}}
+
+.pillar p {{
+    margin:0 !important;
+    font-size:.84rem !important;
+    line-height:1.48 !important;
+    overflow-wrap:anywhere !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
