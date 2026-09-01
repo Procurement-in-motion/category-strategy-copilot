@@ -284,6 +284,46 @@ section.main div[data-testid="stButton"] button[data-testid="stBaseButton-primar
     color:#FFFFFF !important;
 }}
 
+
+/* v6 navigation alignment */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button {{
+    padding:.48rem .66rem !important;
+    margin:.10rem 0 !important;
+    font-weight:500 !important;
+    min-height:2.38rem !important;
+}}
+
+.nav-link a {{
+    padding:.48rem .66rem !important;
+    margin:.10rem 0 !important;
+    font-weight:500 !important;
+    min-height:2.38rem !important;
+    display:flex !important;
+    align-items:center !important;
+}}
+
+/* Keep active menu visually highlighted, but not bold */
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[kind="primary"],
+section[data-testid="stSidebar"] div[data-testid="stButton"] button[data-testid="stBaseButton-primary"] {{
+    font-weight:500 !important;
+}}
+
+/* Standardize capability rectangle dimensions */
+.pillar {{
+    min-height:180px !important;
+    height:180px !important;
+    display:flex !important;
+    flex-direction:column !important;
+}}
+
+.pillar h4 {{
+    min-height:48px !important;
+}}
+
+.pillar p {{
+    margin-top:auto !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -300,8 +340,8 @@ def go_to(page):
 st.sidebar.markdown("### Navigation")
 
 nav_items = [
-    ("⌂", "Expertise"),
-    ("▦", "Portfolio"),
+    ("🏠", "Expertise"),
+    ("◫", "Portfolio"),
 ]
 
 for icon, label in nav_items:
