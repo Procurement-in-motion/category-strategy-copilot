@@ -708,6 +708,17 @@ section[data-testid="stSidebar"] [data-testid="stImage"] {{
     margin-top:-1.6rem !important;
 }}
 
+
+/* v17 — Category Strategy Copilot MVP status */
+.mvp-status {{
+    color:{GOLD};
+    font-size:.56em;
+    font-weight:700;
+    vertical-align:middle;
+    margin-left:.45rem;
+    white-space:nowrap;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -854,7 +865,7 @@ if st.button("‹  Back to Portfolio", key="back_to_portfolio"):
     st.rerun()
 
 hub_hero(
-    "Category Strategy Copilot",
+    'Category Strategy Copilot <span class="mvp-status">(MVP1 - WiP)</span>',
     "From procurement data to evidence-based, actionable category strategy."
 )
 
