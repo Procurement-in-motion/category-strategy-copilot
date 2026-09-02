@@ -819,10 +819,10 @@ if page == "Portfolio":
     projects = [
         ("01","Category Strategy Copilot","WIP",
          "An AI-enabled approach that turns spend, business requirements, supply-market intelligence, supplier dynamics and risk into an evidence-based, actionable category strategy."),
-        ("02","Strategic Sourcing Event","To be initiated",
-         "An end-to-end sourcing approach from scope and business requirements through market engagement, RFI/RFP/RFQ, bid analysis, supplier evaluation, negotiation, decision governance and award."),
-        ("03","Negotiation Framework","To be initiated",
-         "A disciplined, ethical and evidence-based method to prepare, conduct and document supplier negotiations — connecting fact base, BATNA, targets, scenarios, concessions and total value."),
+        ("02","Strategic Sourcing Event Copilot","To be initiated",
+         "An AI-enabled approach to support the end-to-end sourcing event — from scope and business requirements through RFI/RFP/RFQ development, bid analysis, supplier evaluation, decision governance and award."),
+        ("03","Negotiation Framework Copilot","To be initiated",
+         "An AI-enabled negotiation framework that combines internal data, market intelligence and structured negotiation principles to strengthen preparation, scenario analysis, targets, BATNA, concessions and total-value decisions."),
         ("04","Procurement Governance Architecture","To be initiated",
          "A governance architecture connecting policy, standards, processes, controls, approvals, evidence, exceptions, KPIs and continuous improvement.")
     ]
