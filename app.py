@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -16,6 +17,119 @@ TEXT="#172033"
 BEIGE="#F3EEE5"
 WHITE="#FFFFFF"
 MUTED="#667085"
+
+# ---------------------------
+# ANONYMOUS WEB ANALYTICS (GA4)
+# ---------------------------
+# Reads the Measurement ID from Streamlit Secrets.
+def _analytics_measurement_id():
+    try:
+        return str(st.secrets.get("GA4_MEASUREMENT_ID", "")).strip()
+    except Exception:
+        return ""
+
+GA4_ID = _analytics_measurement_id()
+
+def analytics_init(page_name: str):
+    """
+    Initializes GA4 and tracks:
+    - page views
+    - Open project clicks
+    - LinkedIn clicks
+    - Contact clicks
+
+    The click listener is attached to the parent Streamlit document, so the
+    original V17 buttons/links and their styling remain unchanged.
+    """
+    if not GA4_ID:
+        return
+
+    safe_page = (
+        str(page_name)
+        .replace("\\", "\\\\")
+        .replace("'", "\\'")
+        .replace("\n", " ")
+    )
+
+    components.html(
+        f"""
+        <script>
+        (function() {{
+          const w = window.parent;
+          const d = w.document;
+          const measurementId = '{GA4_ID}';
+
+          if (!w.dataLayer) w.dataLayer = [];
+          if (!w.gtag) {{
+            w.gtag = function() {{ w.dataLayer.push(arguments); }};
+          }}
+
+          if (!d.getElementById('pim-ga4-script')) {{
+            const s = d.createElement('script');
+            s.id = 'pim-ga4-script';
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+            d.head.appendChild(s);
+
+            w.gtag('js', new Date());
+            w.gtag('config', measurementId, {{
+              send_page_view: false,
+              allow_google_signals: false,
+              allow_ad_personalization_signals: false
+            }});
+          }}
+
+          // Avoid counting Streamlit reruns as new page views.
+          // A real navigation to another PIM page changes the value and is counted.
+          const currentPage = '{safe_page}';
+          const pageKey = currentPage + '|' + w.location.search;
+          if (w.sessionStorage.getItem('pim_last_pageview') !== pageKey) {{
+            w.gtag('event', 'page_view', {{
+              page_title: currentPage,
+              page_location: w.location.href,
+              page_path: w.location.pathname + w.location.search,
+              pim_page: currentPage
+            }});
+            w.sessionStorage.setItem('pim_last_pageview', pageKey);
+          }}
+
+          // Attach once. Event delegation keeps the original V17 UI unchanged.
+          if (!w.__pimAnalyticsClickListener) {{
+            w.__pimAnalyticsClickListener = true;
+
+            d.addEventListener('click', function(ev) {{
+              const el = ev.target.closest('a,button');
+              if (!el || !w.gtag) return;
+
+              const text = (el.innerText || el.textContent || '').trim().toLowerCase();
+              const href = (el.getAttribute('href') || '').toLowerCase();
+
+              if (text.includes('open project')) {{
+                w.gtag('event', 'open_project_click', {{
+                  project: 'Category Strategy Copilot'
+                }});
+              }}
+
+              if (href.includes('linkedin.com/in/motalarissa')) {{
+                w.gtag('event', 'linkedin_click', {{
+                  destination: 'LinkedIn'
+                }});
+              }}
+
+              if (href.startsWith('mailto:motalarissa.br@gmail.com')) {{
+                w.gtag('event', 'contact_click', {{
+                  destination: 'Email'
+                }});
+              }}
+            }}, true);
+          }}
+        }})();
+        </script>
+        """,
+        height=0,
+        width=0,
+    )
+
 
 st.markdown(f"""
 <style>
@@ -736,6 +850,7 @@ if query_page not in ["Expertise", "Portfolio", "Category Strategy Copilot"]:
 
 st.session_state.pim_page = query_page
 page = st.session_state.pim_page
+analytics_init(page)
 
 def go_to(page):
     st.query_params["page"] = page
