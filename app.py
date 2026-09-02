@@ -719,24 +719,6 @@ section[data-testid="stSidebar"] [data-testid="stImage"] {{
     white-space:nowrap;
 }}
 
-
-/* v18 — compact desktop scale: 100% browser view ≈ previous 75% view */
-@media (min-width: 900px) {{
-    .stApp {{
-        zoom: .75;
-        width: 133.333333% !important;
-        min-height: 133.333333vh !important;
-    }}
-}}
-
-/* Keep mobile/tablet readable rather than forcing desktop scaling */
-@media (max-width: 899px) {{
-    .stApp {{
-        zoom: 1;
-        width: 100% !important;
-    }}
-}}
-
 </style>
 """, unsafe_allow_html=True)
 
